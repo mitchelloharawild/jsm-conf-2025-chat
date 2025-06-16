@@ -26,5 +26,5 @@ text <- "Sessions on causal inference"
 embedding_near_chunks <- ragnar_retrieve_vss(store, text, top_k = 3)
 embedding_near_chunks$text[1] |> cat(sep = "\n~~~~~~~~\n")
 
-embedding_near_chunks <- ragnar_retrieve(store, text)
-embedding_near_chunks$text[1] |> cat(sep = "\n~~~~~~~~\n")
+# embedding_near_chunks <- ragnar_retrieve(store, text)
+# embedding_near_chunks$text[1] |> cat(sep = "\n~~~~~~~~\n")
