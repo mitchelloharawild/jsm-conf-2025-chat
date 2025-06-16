@@ -41,7 +41,7 @@ ui <- bslib::page_sidebar(
   title = "posit::conf(2025) chat",
   sidebar = bslib::sidebar(
       p("Welcome to this chat instance! Start by typing in a question."),
-      p("This chat interface allows you to ask questions about the sessions at the posit::conf(2025)."),
+      p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
       class = "text-center"
   ),
