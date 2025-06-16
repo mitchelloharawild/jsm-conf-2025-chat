@@ -9,13 +9,15 @@ read_prompt <- function(filepath) {
   paste(readLines(filepath), collapse = "\n")
 }
 
-welcome_message1 <- "Hello! Welcome to Posit Conf 2025! How can I assist you today? Whether you have questions about sessions, speakers, or logistics, I'm here to help!"
-welcome_message2 <- "Hello! Welcome to Posit Conf 2025! If you have any questions about the sessions, speakers, feel free to ask. I'm here to help you navigate the conference!"
+welcome_message <- "Hello! Welcome to Posit Conf 2025! 🎉 I'm a chat bot designed to help you find information about the sessions at this year's conference. If you have any questions about the sessions, speakers, feel free to ask. This app is **not** officially affiliated with Posit, but it uses agenda data from the conference website.
 
-welcome_message <- sample(
-  c(welcome_message1, welcome_message2), 
-  1
-)
+Here are some examples:
+- 'Are there any sessions about causal inference?'
+- 'What talks is Hadley giving this year?'
+- 'I'm interested in learning about ellmer, what sessions should I attend?'
+
+Let's get started! Type your question below, and I'll do my best to assist you. 😊"
+
 ## Use alternative to default ragnar retrieval tool
 ragnar_register_tool_retrieve_vss <-
   function(chat, store, store_description = "the knowledge store", ...) {
@@ -52,7 +54,10 @@ ui <- bslib::page_sidebar(
       p("The chat is powered ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
       class = "text-center"
   ),
-  shinychat::chat_ui("chat")
+  shinychat::chat_ui(
+    "chat",
+    messages = welcome_message
+  )
 )
 
 server <- function(input, output, session) {
