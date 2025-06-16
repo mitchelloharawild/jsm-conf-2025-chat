@@ -52,7 +52,7 @@ server <- function(input, output, session) {
   chat <- ellmer::chat_openai(
     system_prompt = system_prompt,
     model = "gpt-4o-mini",
-    api_args = list(temperature = .5)
+    api_args = list(temperature = 0.4)
   )
   ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
   

@@ -1,7 +1,8 @@
 title,text
 "Branded Websites, Presentations, Dashboards, and PDFs with Quarto","## Title: Branded Websites, Presentations, Dashboards, and PDFs with Quarto
 
-**Speakers:** Isabella Velásquez , Sr. Product Marketing Manager, Posit  
+**Speakers:** 
+Isabella Velásquez , Sr. Product Marketing Manager, Posit  
   
 Sara Altman , Posit
 
@@ -23,7 +24,8 @@ Whether you're looking to enhance your personal projects or streamline organizat
 "
 Causal Inference in R,"## Title: Causal Inference in R
 
-**Speakers:** Malcolm Barrett , Research Software Engineer, Stanford University  
+**Speakers:** 
+Malcolm Barrett , Research Software Engineer, Stanford University  
   
 Lucy D'Agostino McGowan , Assistant Professor, Wake Forest University
 
@@ -41,7 +43,8 @@ have a basic understanding of data manipulation and visualization using tidyvers
 are interested in understanding the fundamentals behind how to move from estimating correlations to causal relationships."
 Data Science Workflows with Posit Tools - R Focus,"## Title: Data Science Workflows with Posit Tools - R Focus
 
-**Speakers:** Katie Masielo , Solutions Engineer, Posit  
+**Speakers:** 
+Katie Masielo , Solutions Engineer, Posit  
   
 Ryan Johnson , Data Science Advisor, Posit, PBC
 
@@ -61,7 +64,8 @@ Have experience developing in R. An analogous course with a Python focus is also
 "
 Data Science Workflows with Posit Tools - Python Focus,"## Title: Data Science Workflows with Posit Tools - Python Focus
 
-**Speakers:** Sam Edwardes , Senior Solutions Engineer, Posit  
+**Speakers:** 
+Sam Edwardes , Senior Solutions Engineer, Posit  
   
 Michael Beigelmacher , Posit
 
@@ -81,7 +85,8 @@ Have experience developing in Python. An analogous course with an R focus is als
 "
 Data Talks: How to make your data science accessible,"## Title: Data Talks: How to make your data science accessible
 
-**Speakers:** Blythe Coons , Executive Speech Coach, Articulation  
+**Speakers:** 
+Blythe Coons , Executive Speech Coach, Articulation  
   
 Acacia Duncan , Director of Coaching and Training, Articulation
 
@@ -107,7 +112,8 @@ Who it’s for: You’re a mid-senior-level leader who needs to translate comple
 About Articulation: Articulation is more than just a public speaking training and executive coaching company. We see ourselves as a service to communities and organizations — large and small, public and private — that can help their executives and rising stars become better storytellers and better public speakers. Our clients come from Fortune 500 companies, internationally recognized education and research institutions, philanthropic organizations, and entrepreneurs eager to grow their businesses. Individuals from across the business spectrum also turn to us to obtain the presentation, public speaking, and storytelling skills to advance their careers and lead the people and companies they work for."
 Deploying reproducible analytics environments for regulated use cases,"## Title: Deploying reproducible analytics environments for regulated use cases
 
-**Speakers:** James Black , Executive Director, Technology and Scientific Computing, Novartis  
+**Speakers:** 
+James Black , Executive Director, Technology and Scientific Computing, Novartis  
   
 Orla Doyle , Data Scientist, Novartis  
   
@@ -137,7 +143,8 @@ Join us for a robust discussion to share experiences, identify best practices, a
 Target Audience: This workshop is ideal for data scientists, statisticians, IT professionals, and regulatory compliance experts interested in deploying R packages in highly regulated environments."
 End-to-End Submissions in R with the Pharmaverse,"## Title: End-to-End Submissions in R with the Pharmaverse
 
-**Speakers:** Becca Krouse , GSK  
+**Speakers:** 
+Becca Krouse , GSK  
   
 Daniel Sjoberg , Genentech
 
@@ -148,7 +155,8 @@ Daniel Sjoberg , Genentech
 Ready to optimize your regulatory submission process? This workshop offers a practical, end-to-end introduction to using R for a streamlined workflow from raw data to tables, listings, and graphs (TLGs). We'll dive into the power of key R packages from the Pharmaverse, starting with SDTM data preparation; learn to effortlessly map, transform, and validate your data to CDISC standards, ensuring both quality and compliance. Next, create ADaM datasets using modular and pipe-able syntax. Finally, get ready to generate compelling TLGs supported by Analysis Results Datasets (ARDs). We'll explore techniques for producing publication-ready output, customized to meet your specific reporting needs. Walk away with the skills to confidently use R for every stage of the submission process."
 Exploratory Data Analysis with Python Polars,"## Title: Exploratory Data Analysis with Python Polars
 
-**Speakers:** Jeroen Janssens , Posit
+**Speakers:** 
+Jeroen Janssens , Posit
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy D
@@ -166,7 +174,8 @@ Visualize DataFrames with packages like Altair, plotnine, and Great Tables
 This workshop is ideal for data scientists and data engineers looking to enhance their workflows and improve performance at scale. By the end, you’ll understand why everybody says: Polars come for the speed, stay for the syntax."
 Extending Quarto,"## Title: Extending Quarto
 
-**Speakers:** Mine Cetinkaya-Rundel , Professor + Developer Educator, Posit  
+**Speakers:** 
+Mine Cetinkaya-Rundel , Professor + Developer Educator, Posit  
   
 Charlotte Wickham , Developer Educator, Posit
 
@@ -187,7 +196,8 @@ By the end of the workshop, you will be able to leverage Quarto's extensibility 
 "
 From R User to R Programmer,"## Title: From R User to R Programmer
 
-**Speakers:** Emma Rand , Professor, University of York  
+**Speakers:** 
+Emma Rand , Professor, University of York  
   
 Ian Lyttle , Data Scientist, Schneider Electric
 
@@ -207,7 +217,8 @@ want to learn how to write functions and use iteration to reduce duplication in 
 "
 Getting More Out of Feature Engineering and Tuning for Machine Learning,"## Title: Getting More Out of Feature Engineering and Tuning for Machine Learning
 
-**Speakers:** Max Kuhn , Principal Software Engineer, Posit  
+**Speakers:** 
+Max Kuhn , Principal Software Engineer, Posit  
   
 Emil Hvitfeldt , Software Engineer, Posit PBC
 
@@ -224,7 +235,8 @@ This course is focused on the analysis of tabular data and does not include deep
 "
 Introduction to machine learning in R with tidymodels,"## Title: Introduction to machine learning in R with tidymodels
 
-**Speakers:** Hannah Frick , Senior Software Engineer, Posit  
+**Speakers:** 
+Hannah Frick , Senior Software Engineer, Posit  
   
 Simon P. Couch , Software Engineer, Posit, PBC
 
@@ -239,7 +251,8 @@ In this workshop, you'll learn the process of predictive modeling for tabular da
 "
 Machine learning with scikit-learn in Python,"## Title: Machine learning with scikit-learn in Python
 
-**Speakers:** Tiffany Timbers , Associate Professor of Teaching, University of British Columbia  
+**Speakers:** 
+Tiffany Timbers , Associate Professor of Teaching, University of British Columbia  
   
 Katie Burak , Assistant Professor of Teaching, University of British Columbia
 
@@ -250,7 +263,8 @@ Katie Burak , Assistant Professor of Teaching, University of British Columbia
 This workshop will teach you how to perform machine learning for prediction in Python using the widely-used Scikit-learn learn package. You will be introduced to best practices for machine learning model creation and selection, including data splitting, pre-processing, parameter and model optimization, as well as results visualization and communication. Workshop examples will begin with simple, intuitive models (e.g., K-nearest neighbors, linear regression) but also demonstrate the use of more commonly used and industry standard models (e.g., ensemble methods such as random forest and boosting). The workshop will focus on demonstrating how to do this using the modern Scikit-learn pipeline syntax."
 Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices,"## Title: Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices
 
-**Speakers:** Thomas Lin Pedersen , Software Engineer, Posit  
+**Speakers:** 
+Thomas Lin Pedersen , Software Engineer, Posit  
   
 Teun Van den Brand , Posit
 
@@ -272,7 +286,8 @@ By the end of this workshop, you'll have a comprehensive understanding of the la
 "
 Modern Data Platforms with Posit for R & Python Users,"## Title: Modern Data Platforms with Posit for R & Python Users
 
-**Speakers:** James Blair , Posit
+**Speakers:** 
+James Blair , Posit
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Dunwoody
@@ -289,7 +304,8 @@ How to leverage GenAI models provided by modern data platforms to enhance data w
 This workshop is designed for data scientists, analysts, and engineers using R or Python who want to enhance their workflows with cloud and database platforms. By the end of this workshop, participants will have a solid foundation in using Posit tools to work with enterprise-scale data solutions—empowering them to build, share, and deploy insights faster."
 Package Development: The Rest of the Owl,"## Title: Package Development: The Rest of the Owl
 
-**Speakers:** Jenny Bryan , Software engineer, Posit
+**Speakers:** 
+Jenny Bryan , Software engineer, Posit
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Hanover C
@@ -330,7 +346,8 @@ Participants at either extreme (very new or very experienced) should anticipate 
 "
 Programming with LLM APIs: A Beginner’s Guide in R and Python,"## Title: Programming with LLM APIs: A Beginner’s Guide in R and Python
 
-**Speakers:** Joe Cheng , Posit  
+**Speakers:** 
+Joe Cheng , Posit  
   
 Garrick Aden-Buie , Posit
 
@@ -355,7 +372,8 @@ If you’ve been sitting on the fence, wondering whether LLMs are worth diving i
 "
 R in Production,"## Title: R in Production
 
-**Speakers:** Hadley Wickham , Posit
+**Speakers:** 
+Hadley Wickham , Posit
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Centennial I
@@ -376,7 +394,8 @@ Want to improve the quality of your production code generally.
 "
 Shiny for Python,"## Title: Shiny for Python
 
-**Speakers:** Daniel Chen , Posit
+**Speakers:** 
+Daniel Chen , Posit
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy C
@@ -412,7 +431,8 @@ We believe that Shiny is the best framework for building data applications in Py
 The R and Python Shiny packages are similar, so some of the content in this workshop may be familiar to you. That said, it’s a great opportunity to fill in missing pieces and ask questions about Python best practices. We will also talk about Shiny modules and testing in this workshop, which will also be a precursor for you to learn more about Python Packaging. If you are interested in learning more about Python, this workshop would be a great practical way to learn how to code in Python. Check out ourquickstart guide for R usersandthis tutorialif you want to get up to speed with Shiny for Python quickly."
 Shiny for R,"## Title: Shiny for R
 
-**Speakers:** Colin Rundel , Associate Professor of the Practice, Duke University
+**Speakers:** 
+Colin Rundel , Associate Professor of the Practice, Duke University
 
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Courtland
@@ -423,7 +443,8 @@ Shiny is an R package that makes it easy to build interactive web apps straight 
 "
 Welcome Reception,"## Title: Welcome Reception
 
-**Speakers:** TBA
+**Speakers:** 
+TBA
 
 **Time:** Tuesday, Sep 165:00 PM - 7:00 PM EDT  
 **Location:** LL2 - Pre-function area
@@ -432,7 +453,8 @@ Welcome Reception,"## Title: Welcome Reception
 Session details will be released soon, stay tuned!"
 Keynote Session,"## Title: Keynote Session
 
-**Speakers:** Jonathan McPherson , Software Architect, Posit Software, PBC
+**Speakers:** 
+Jonathan McPherson , Software Architect, Posit Software, PBC
 
 **Time:** Wednesday, Sep 179:00 AM - 10:00 AM EDT  
 **Location:** Centennial Ballroom
@@ -441,7 +463,8 @@ Keynote Session,"## Title: Keynote Session
 Stay tuned, more details to come soon!"
 LLMs with R and Python,"## Title: LLMs with R and Python
 
-**Speakers:** Rebecca Barter , Research Assistant Professor, University of Utah  
+**Speakers:** 
+Rebecca Barter , Research Assistant Professor, University of Utah  
   
 Regis A. James , Regeneron Pharmaceuticals  
   
@@ -462,7 +485,8 @@ Trust, but Verify: Lessons from Deploying LLMs in a Large Health System
  "
 Pedagogy as Software,"## Title: Pedagogy as Software
 
-**Speakers:** Claus Wilke , Professor, The University of Texas at Austin  
+**Speakers:** 
+Claus Wilke , Professor, The University of Texas at Austin  
   
 Kene David Nwosu , Curriculum Director, TheGraphCourses.org  
   
@@ -483,7 +507,8 @@ Leveraging LLMs for student feedback in introductory data science courses
  "
 Positron,"## Title: Positron
 
-**Speakers:** Austin Dickey , Senior Software Engineer, Posit, PBC  
+**Speakers:** 
+Austin Dickey , Senior Software Engineer, Posit, PBC  
   
 Wes McKinney , Principal Architect, Posit  
   
@@ -506,7 +531,8 @@ IDE-ntity Crisis: Choosing the Right Tool for Me
  "
 Shiny for Humans,"## Title: Shiny for Humans
 
-**Speakers:** Kim Schouten , Data scientist, Nederlandse Zorgautoriteit (Dutch Healthcare Authority)  
+**Speakers:** 
+Kim Schouten , Data scientist, Nederlandse Zorgautoriteit (Dutch Healthcare Authority)  
   
 Cameron Race , Lead Product Manager and Statistician, Department for Education (UK)  
   
@@ -532,7 +558,8 @@ Death by Dropdown? How to Build Shiny Apps That Guide—Not Overwhelm—Your Use
 Design of Everyday Shiny Apps"
 Lunch,"## Title: Lunch
 
-**Speakers:** TBA
+**Speakers:** 
+TBA
 
 **Time:** Wednesday, Sep 1711:40 AM - 1:00 PM EDT  
 **Location:** TBD
@@ -541,7 +568,8 @@ Lunch,"## Title: Lunch
 Join your fellow posit::conf attendees for a networking lunch!"
 Get the Latest on Posit's Commercial Products,"## Title: Get the Latest on Posit's Commercial Products
 
-**Speakers:** Kelly O'Briant  
+**Speakers:** 
+Kelly O'Briant  
   
 Tom Mock , Posit  
   
@@ -562,7 +590,8 @@ Steve Nolen , Engineering Manager, Posit
 Join us for an overview of the latest developments across Posit’s commercial product ecosystem. This session will cover Posit Workbench, Package Manager, Connect, Connect Cloud, and our growing portfolio of managed services including Snowflake and beyond. Hear directly from the product managers and engineers who are building these tools, and get insights into what’s coming next."
 Learning by Doing,"## Title: Learning by Doing
 
-**Speakers:** Ryan Johnson , Data Science Advisor, Posit, PBC  
+**Speakers:** 
+Ryan Johnson , Data Science Advisor, Posit, PBC  
   
 Kelly McConville , Associate Professor/Director, Bucknell University  
   
@@ -583,7 +612,8 @@ On teaching adults to code
  "
 Lightning Talks,"## Title: Lightning Talks
 
-**Speakers:** Sharon Machlis , Retired (but still freelance), Formerly Computerworld & InfoWorld  
+**Speakers:** 
+Sharon Machlis , Retired (but still freelance), Formerly Computerworld & InfoWorld  
   
 Cari Gostic , Air Quality Data Scientist, Sonoma Technology  
   
@@ -631,7 +661,8 @@ Plotgardener – Genomic Data Visualization Made Easy
 What we're doing to make Quarto fast(er)"
 Shiny New Tricks,"## Title: Shiny New Tricks
 
-**Speakers:** Karan Gathani , Software QA Engineer, Posit PBC  
+**Speakers:** 
+Karan Gathani , Software QA Engineer, Posit PBC  
   
 Trevor Manz , Engineer, marimo  
   
@@ -652,7 +683,8 @@ shinystate: Launching collaboration and session management to new heights in Shi
  "
 Get Your Ducks in a Row with Databases,"## Title: Get Your Ducks in a Row with Databases
 
-**Speakers:** Kirill Müller , Partner, cynkra GmbH  
+**Speakers:** 
+Kirill Müller , Partner, cynkra GmbH  
   
 Marcos Huerta , Manager, Data Science, Carmax  
   
@@ -672,7 +704,8 @@ Keeping Data Alive: Persistent Storage Options for Dynamic Cloud Applications
 Get your ducks in a row... faster Shiny apps with DuckDB"
 Put It In Production,"## Title: Put It In Production
 
-**Speakers:** Joe Kirincic , Principal Data Scientist  
+**Speakers:** 
+Joe Kirincic , Principal Data Scientist  
   
 Tom Shafer , Principal Data Scientist, Elder Research, Inc.  
   
@@ -693,7 +726,8 @@ Oops! I accidentally made a production dashboard
  "
 Quarto,"## Title: Quarto
 
-**Speakers:** John Paul Helveston , Assistant Professor, George Washington University  
+**Speakers:** 
+John Paul Helveston , Assistant Professor, George Washington University  
   
 Keaton Wilson , KS&R  
   
@@ -714,7 +748,8 @@ Beyond the Basics: Expanding Quarto's Capabilities with Lua
  "
 Sparking Development Joy,"## Title: Sparking Development Joy
 
-**Speakers:** Libby McKenna , Water Process Engineer, Brown and Caldwell  
+**Speakers:** 
+Libby McKenna , Water Process Engineer, Brown and Caldwell  
   
 Davis Vaughan , Senior Software Engineer, Posit  
   
@@ -736,7 +771,8 @@ Making Things Nice in Python
 The Curse of Documentation"
 Keynote Session,"## Title: Keynote Session
 
-**Speakers:** Kieran Healy , Professor, Duke University
+**Speakers:** 
+Kieran Healy , Professor, Duke University
 
 **Time:** Wednesday, Sep 174:15 PM - 5:15 PM EDT  
 **Location:** Centennial Ballroom
@@ -745,7 +781,8 @@ Keynote Session,"## Title: Keynote Session
 Stay tuned, more details to come soon!"
 Evening Event,"## Title: Evening Event
 
-**Speakers:** TBA
+**Speakers:** 
+TBA
 
 **Time:** Wednesday, Sep 177:00 PM - 9:00 PM EDT  
 **Location:** TBD
@@ -754,7 +791,8 @@ Evening Event,"## Title: Evening Event
 Session details will be released soon, stay tuned!"
 Keynote Session,"## Title: Keynote Session
 
-**Speakers:** Cat Hicks , Psychologist for Software Teams, Catharsis Consulting
+**Speakers:** 
+Cat Hicks , Psychologist for Software Teams, Catharsis Consulting
 
 **Time:** Thursday, Sep 189:00 AM - 10:00 AM EDT  
 **Location:** Centennial Ballroom
@@ -763,7 +801,8 @@ Keynote Session,"## Title: Keynote Session
 Stay tuned, more details to come soon!"
 Data for Real-World Impact,"## Title: Data for Real-World Impact
 
-**Speakers:** Kylie Ainslie , Senior Researcher, Dutch National Institute of Public Health and the Environment (RIVM)  
+**Speakers:** 
+Kylie Ainslie , Senior Researcher, Dutch National Institute of Public Health and the Environment (RIVM)  
   
 Marcus Beck , Senior Scientist, Tampa Bay Estuary Program  
   
@@ -786,7 +825,8 @@ Election Night Reporting Using R & Quarto
  "
 I Like Big Orgs and I Cannot Lie,"## Title: I Like Big Orgs and I Cannot Lie
 
-**Speakers:** Clara Amorosi , Principal Data Scientist, Bristol Myers Squibb  
+**Speakers:** 
+Clara Amorosi , Principal Data Scientist, Bristol Myers Squibb  
   
 Yvonne Kienast , Project Lead, Canadian Institute for Health Information (CIHI)  
   
@@ -807,7 +847,8 @@ A tale of one organization: learning how to swim in the ocean of open source
  "
 Strengthening the R Ecosystem,"## Title: Strengthening the R Ecosystem
 
-**Speakers:** Andrés Quintero , Data Professional, ixpantia  
+**Speakers:** 
+Andrés Quintero , Data Professional, ixpantia  
   
 Shannon Pileggi , Associate Director of Data Science, The Prostate Cancer Clinical Trials Consortium  
   
@@ -828,7 +869,8 @@ Extending the horizons of R with Rust
  "
 The Power of Presentation,"## Title: The Power of Presentation
 
-**Speakers:** James Wade , Research Scientist, Dow  
+**Speakers:** 
+James Wade , Research Scientist, Dow  
   
 Bill Pikounis , Senior Distinguished Scientist, Manufacturing Statistics, Johnson & Johnson  
   
@@ -849,7 +891,8 @@ Theming Made Easy: Introducing brand.yml
  "
 Lunch,"## Title: Lunch
 
-**Speakers:** TBA
+**Speakers:** 
+TBA
 
 **Time:** Thursday, Sep 1811:40 AM - 1:00 PM EDT  
 **Location:** TBD
@@ -858,7 +901,8 @@ Lunch,"## Title: Lunch
 Join your fellow posit::conf attendees for a networking lunch!"
 "Beautiful, Effective, and Accessible Data Visualization","## Title: Beautiful, Effective, and Accessible Data Visualization
 
-**Speakers:** Simisani Ndaba , Teaching Assistant | Data Science Research Assistant, University of Botswana  
+**Speakers:** 
+Simisani Ndaba , Teaching Assistant | Data Science Research Assistant, University of Botswana  
   
 Emil Malta , Senior Consultant, Statistics Greenland  
   
@@ -878,7 +922,8 @@ maidr: Empowering Accessible, Multimodal Data Visualizations
 Same Data, Different Tools: Visualizing with R and Python"
 Facepalm-driven Development: Learning From AI and Human Errors,"## Title: Facepalm-driven Development: Learning From AI and Human Errors
 
-**Speakers:** Julia Silge , Engineering Manager, Posit, PBC  
+**Speakers:** 
+Julia Silge , Engineering Manager, Posit, PBC  
   
 Nic Crane , R Consultant, NC Data Labs  
   
@@ -899,7 +944,8 @@ Failure (and Mistakes)
  "
 Machine Learning and Statistical Modelling,"## Title: Machine Learning and Statistical Modelling
 
-**Speakers:** Hugo Fitipaldi , Postdoctoral Research Fellow, Lund University  
+**Speakers:** 
+Hugo Fitipaldi , Postdoctoral Research Fellow, Lund University  
   
 Jenna Wraith  
   
@@ -920,7 +966,8 @@ Demystifying MLOps with Vetiver
  "
 Teaming Up with Posit Products,"## Title: Teaming Up with Posit Products
 
-**Speakers:** Kris Fabick , Data Scientist, Nissan North America  
+**Speakers:** 
+Kris Fabick , Data Scientist, Nissan North America  
   
 Kristin Carr  
   
@@ -942,7 +989,8 @@ Automating for Consistency
 Data Science Hangout at posit::conf(2025)"
 Enterprise Data Platforms,"## Title: Enterprise Data Platforms
 
-**Speakers:** Mark Neal , Head of Data Science, DairyNZ  
+**Speakers:** 
+Mark Neal , Head of Data Science, DairyNZ  
   
 Jonathan Regenstein  
   
@@ -964,7 +1012,8 @@ From Framework to Function: Integrating AI, Data Science Platforms, and Psycholo
 From SDKs to Agents: Building with R and Python on Databricks"
 It Takes a Village: Building and Sustaining Communities,"## Title: It Takes a Village: Building and Sustaining Communities
 
-**Speakers:** Melissa Van Bussel , Senior Data Scientist, Statistics Canada  
+**Speakers:** 
+Melissa Van Bussel , Senior Data Scientist, Statistics Canada  
   
 Beatriz Milz , Post doc / Community organizer / Software peer review editor, UFABC / R-Ladies São Paulo / rOpensci  
   
@@ -984,7 +1033,8 @@ Representation Matters: An Atlas of Inspiring Hispanic/Latinx Scientists
 rOpenSci Champions: Building Communities of Open-Source Leaders"
 Multilingual Data Science,"## Title: Multilingual Data Science
 
-**Speakers:** Michael Thomas , Chief Data Scientist, Ketchbrook Analytics  
+**Speakers:** 
+Michael Thomas , Chief Data Scientist, Ketchbrook Analytics  
   
 Jeroen Janssens , Posit  
   
@@ -1005,7 +1055,8 @@ R & Python playing nice, in production
  "
 You Put WHAT in Your Data?,"## Title: You Put WHAT in Your Data?
 
-**Speakers:** Colin S Gillespie , CTO, Jumping Rivers  
+**Speakers:** 
+Colin S Gillespie , CTO, Jumping Rivers  
   
 Julianne Gent , Analytics Developer, Emory Healthcare  
   
@@ -1025,7 +1076,8 @@ Bold indicates negative?
 Zero Tolerance for Dirty Data: A Pointblank Prescription for Data Hygiene"
 Keynote Session,"## Title: Keynote Session
 
-**Speakers:** Joe Cheng , Posit  
+**Speakers:** 
+Joe Cheng , Posit  
   
 Hadley Wickham , Posit
 
