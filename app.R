@@ -9,6 +9,13 @@ read_prompt <- function(filepath) {
   paste(readLines(filepath), collapse = "\n")
 }
 
+welcome_message1 <- "Hello! Welcome to Posit Conf 2025! How can I assist you today? Whether you have questions about sessions, speakers, or logistics, I'm here to help!"
+welcome_message2 <- "Hello! Welcome to Posit Conf 2025! If you have any questions about the sessions, speakers, feel free to ask. I'm here to help you navigate the conference!"
+
+welcome_message <- sample(
+  c(welcome_message1, welcome_message2), 
+  1
+)
 ## Use alternative to default ragnar retrieval tool
 ragnar_register_tool_retrieve_vss <-
   function(chat, store, store_description = "the knowledge store", ...) {
@@ -40,7 +47,7 @@ system_prompt <- read_prompt("system-prompt.md")
 ui <- bslib::page_sidebar(
   title = "posit::conf(2025) chat",
   sidebar = bslib::sidebar(
-      p("Welcome to this chat instance! Start by typing in a question."),
+      p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
       p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
       class = "text-center"
