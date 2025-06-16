@@ -2,19 +2,16 @@ library(ragnar)
 library(ellmer)
 library(tibble)
 library(duckdb)
+library(readr)
+
+chunks_df <- readr::read_csv("posit-conf-2025-sessions.csv")
 
 store_location <- "posit-conf-2025.ragnar.duckdb"
 
 store <- ragnar::ragnar_store_create(
-  store_location,
+  location = store_location,
   embed = \(x) ragnar::embed_openai(x, model = "text-embedding-3-small"),
   overwrite = TRUE
-)
-
-chunks_df <- data.frame(
-  title = names(sessions_md),
-  text = sessions_md,
-  stringsAsFactors = FALSE
 )
 
 ragnar::ragnar_store_insert(store, chunks_df)

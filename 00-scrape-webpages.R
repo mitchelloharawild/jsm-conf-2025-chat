@@ -2,6 +2,7 @@ library(rvest)
 library(glue)
 library(chromote)
 library(purrr)
+library(readr)
 
 # Define the URLs for the conference agenda
 days <- 20250916:20250918
@@ -68,4 +69,14 @@ format_session_as_md <- function(session) {
 }
 
 sessions_md <- purrr::map_chr(conf_agenda, format_session_as_md) |>
-  purrr::set_names(purrr::map(conf_agenda, \(x) x$title))
+  purrr::set_names(
+    purrr::map(conf_agenda, \(x) x$title)
+  )
+
+chunks_df <- data.frame(
+  title = names(sessions_md),
+  text = sessions_md,
+  stringsAsFactors = FALSE
+)
+
+readr::write_csv(chunks_df, "posit-conf-2025-sessions.csv")
