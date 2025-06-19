@@ -80,4 +80,7 @@ chunks_df <- data.frame(
   stringsAsFactors = FALSE
 )
 
-readr::write_csv(chunks_df, "posit-conf-2025-sessions.csv")
+readr::write_csv(
+  chunks_df,
+  file.path("data", "posit-conf-2025-sessions.csv")
+)
