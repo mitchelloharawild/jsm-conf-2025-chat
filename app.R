@@ -35,7 +35,9 @@ ragnar_register_tool_retrieve_vss <-
   }
 
 
-system_prompt <- read_md("system-prompt.md")
+system_prompt <- ellmer::interpolate_file(
+  "system-prompt.md", event_info = read_md("event-info.md")
+)
 welcome_message <- read_md("welcome-message.md")
 
 ui <- bslib::page_sidebar(
