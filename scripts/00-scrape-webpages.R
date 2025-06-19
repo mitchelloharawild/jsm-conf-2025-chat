@@ -3,6 +3,7 @@ library(glue)
 library(chromote)
 library(purrr)
 library(readr)
+library(fs)
 
 # Define the URLs for the conference agenda
 days <- 20250916:20250918
@@ -83,4 +84,15 @@ chunks_df <- data.frame(
 readr::write_csv(
   chunks_df,
   file.path("data", "posit-conf-2025-sessions.csv")
+)
+
+# write last modified date based on CSV as text file
+
+info <- fs::file_info(file.path("data", "posit-conf-2025.ragnar.duckdb"))
+
+last_modified_date <- as.Date(info$modification_time)
+
+writeLines(
+  as.character(last_modified_date),
+  file.path("data", "retrieval-date.txt")
 )

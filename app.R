@@ -34,11 +34,16 @@ ragnar_register_tool_retrieve_vss <-
     invisible(chat)
   }
 
+last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
+  as.Date(format = "%Y-%m-%d")
 
 system_prompt <- ellmer::interpolate_file(
   "system-prompt.md", event_info = read_md("event-info.md")
 )
-welcome_message <- read_md("welcome-message.md")
+
+welcome_message <- ellmer::interpolate_file(
+  "welcome-message.md", update_date = last_updated
+)
 
 ui <- bslib::page_sidebar(
   title = "posit::conf(2025) chat",
