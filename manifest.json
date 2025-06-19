@@ -2452,38 +2452,41 @@
     }
   },
   "files": {
-    "00-scrape-webpages.R": {
-      "checksum": "a9da568604abbdf985e09b3762beaa5f"
-    },
-    "01-ragnar-store.R": {
-      "checksum": "199ff54bac22fb221e2b1fe5592093e4"
-    },
-    "02-ellmer-chat.R": {
-      "checksum": "76f6b7b691583993db42303b5b133b18"
-    },
     "app.R": {
-      "checksum": "6e50ad4ba09fc22f161f3a8d7dfc5c66"
+      "checksum": "d9644d4ab8977c486c7811a2d268cbed"
+    },
+    "data/posit-conf-2025-sessions.csv": {
+      "checksum": "77ec752eca6dd771a59ddd84300e35b2"
+    },
+    "data/posit-conf-2025.ragnar.duckdb": {
+      "checksum": "78e71ed5bb2370c977c54b380493d704"
+    },
+    "data/posit-conf-2025.ragnar.duckdb.wal": {
+      "checksum": "a3eb5cfc69dfd6b71ebe4204eb6e396d"
     },
     "learning.qmd": {
       "checksum": "a0d5b3843fa8221c33e5b046011c3be5"
     },
-    "posit-conf-2025-sessions.csv": {
-      "checksum": "77ec752eca6dd771a59ddd84300e35b2"
+    "R/00-scrape-webpages.R": {
+      "checksum": "f94406fd9bb49e74ba019dc0b5095e19"
     },
-    "posit-conf-2025.ragnar.duckdb": {
-      "checksum": "78e71ed5bb2370c977c54b380493d704"
+    "R/01-ragnar-store.R": {
+      "checksum": "58b90972402f96296be64443a7ec6220"
     },
-    "posit-conf-2025.ragnar.duckdb.wal": {
-      "checksum": "a3eb5cfc69dfd6b71ebe4204eb6e396d"
+    "R/02-ellmer-chat.R": {
+      "checksum": "13e20ba746d255ca8c5f35e9fc29cde4"
     },
     "README.md": {
-      "checksum": "ab7549949a24da05393c49cf980e91d4"
+      "checksum": "ad9f9a2fe399571bdee9021a5fbc607c"
     },
     "requirements.txt": {
       "checksum": "9d6b207d3f73dceb81a8691506e4c900"
     },
     "system-prompt.md": {
       "checksum": "1783786eb882c262bac50c341c30e18e"
+    },
+    "welcome-message.md": {
+      "checksum": "0b6d2db6a398c567aa7cc751fcaf8982"
     }
   },
   "users": null
