@@ -5,18 +5,9 @@ library(shinychat)
 store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
 
-read_prompt <- function(filepath) {
+read_md <- function(filepath) {
   paste(readLines(filepath), collapse = "\n")
 }
-
-welcome_message <- "Hello! Welcome to Posit Conf 2025! 🎉 I'm a chat bot designed to help you find information about the sessions at this year's conference. If you have any questions about the sessions, speakers, feel free to ask. This app is **not** officially affiliated with Posit, but it uses agenda data from the conference website.
-
-Here are some examples:
-- 'Are there any sessions about causal inference?'
-- 'What talks is Hadley giving this year?'
-- 'I'm interested in learning about ellmer, what sessions should I attend?'
-
-Let's get started! Type your question below, and I'll do my best to assist you. 😊"
 
 ## Use alternative to default ragnar retrieval tool
 ragnar_register_tool_retrieve_vss <-
@@ -44,7 +35,8 @@ ragnar_register_tool_retrieve_vss <-
   }
 
 
-system_prompt <- read_prompt("system-prompt.md")
+system_prompt <- read_md("system-prompt.md")
+welcome_message <- read_md("welcome-message.md")
 
 ui <- bslib::page_sidebar(
   title = "posit::conf(2025) chat",
