@@ -4,11 +4,9 @@ library(tibble)
 library(duckdb)
 library(readr)
 
-chunks_df <- readr::read_csv(
-  file.path("data", "posit-conf-2025-sessions.csv")
-)
+chunks_df <- readr::read_csv("data/posit-conf-2025-sessions.csv")
 
-store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
+store_location <- "data/posit-conf-2025.ragnar.duckdb"
 
 store <- ragnar::ragnar_store_create(
   location = store_location,
