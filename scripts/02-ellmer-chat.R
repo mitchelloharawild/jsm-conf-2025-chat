@@ -1,7 +1,7 @@
 library(ellmer)
 library(ragnar)
 
-store_location <- "data/posit-conf-2025.ragnar.duckdb"
+store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
 
 read_prompt <- function(filepath) {
