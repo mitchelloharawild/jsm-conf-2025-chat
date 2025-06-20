@@ -88,7 +88,7 @@ readr::write_csv(
 
 # write last modified date based on CSV as text file
 
-info <- fs::file_info(file.path("data", "posit-conf-2025-sessions.csv"))
+info <- fs::file_info(file.path("data", "posit-conf-2025.ragnar.duckdb"))
 
 last_modified_date <- as.Date(info$modification_time)
 
