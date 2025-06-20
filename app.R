@@ -19,15 +19,22 @@ ragnar_register_tool_retrieve_vss <-
     chat$register_tool(
       ellmer::tool(
         .name = glue::glue("rag_retrieve_from_{store@name}"),
-        function(text) {
-          ragnar::ragnar_retrieve_vss(store, text, ...)$text |>
-            stringi::stri_flatten("\n\n---\n\n")
+        function(text, status_ignore_workshops = status_ignore_workshops) {
+          results <- ragnar::ragnar_retrieve_vss(store, text, ...)$text
+          # Filter out entries containing 'workshop' if the toggle is on
+          if (status_ignore_workshops) {
+            results <- results[!grepl("workshop", results, ignore.case = TRUE)]
+          }
+          stringi::stri_flatten(results, "\n\n---\n\n")
         },
         glue::glue(
           "Given a string, retrieve the most relevent excerpts from {store_description}."
         ),
         text = ellmer::type_string(
           "The text to find the most relevent matches for."
+        ),
+        status_ignore_workshops = ellmer::type_boolean(
+          "Whether to ignore workshops in the results."
         )
       )
     )
@@ -38,7 +45,9 @@ last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
   as.Date(format = "%Y-%m-%d")
 
 system_prompt <- ellmer::interpolate_file(
-  "system-prompt.md", event_info = read_md("event-info.md")
+  "system-prompt.md", 
+  event_info = read_md("event-info.md"),
+  status_ignore_workshops = FALSE
 )
 
 welcome_message <- ellmer::interpolate_file(
@@ -51,6 +60,7 @@ ui <- bslib::page_sidebar(
       p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
       p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered by ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
+      bslib::input_switch("switch_workshops", "Ignore all workshops", value = FALSE), 
       class = "text-center"
   ),
   shinychat::chat_ui(
@@ -70,6 +80,16 @@ server <- function(input, output, session) {
   observeEvent(input$chat_user_input, {
     stream <- chat$stream_async(input$chat_user_input)
     shinychat::chat_append("chat", stream)
+  })
+
+  observeEvent(input$switch_workshops, {
+    chat$set_system_prompt(
+      ellmer::interpolate_file(
+        "system-prompt.md",
+        event_info = read_md("event-info.md"),
+        status_ignore_workshops = input$switch_workshops
+      )
+    )
   })
 }
 
