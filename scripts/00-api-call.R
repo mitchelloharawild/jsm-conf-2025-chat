@@ -45,7 +45,7 @@ if (!is.null(resp)) {
   
   resp_json |> 
     jsonlite::write_json(file.path("data", "api_response.json"))
-}resp_json
+}
 
 ## Process saved JSON file
 resp_json <- jsonlite::read_json(file.path("data", "api_response.json"))
