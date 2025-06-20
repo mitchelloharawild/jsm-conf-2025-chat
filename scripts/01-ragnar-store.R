@@ -4,8 +4,12 @@ library(tibble)
 library(duckdb)
 library(readr)
 
-chunks_df <- readr::read_csv(
+sessions_df <- readr::read_csv(
   file.path("data", "posit-conf-2025-sessions.csv")
+)
+
+abstracts_df <- readr::read_csv(
+  file.path("data", "posit-conf-2025-abstracts.csv")
 )
 
 store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
@@ -16,7 +20,8 @@ store <- ragnar::ragnar_store_create(
   overwrite = TRUE
 )
 
-ragnar::ragnar_store_insert(store, chunks_df)
+ragnar::ragnar_store_insert(store, sessions_df)
+ragnar::ragnar_store_insert(store, abstracts_df)
 
 # Example retrieval
 store <- ragnar_store_connect(store_location, read_only = TRUE)

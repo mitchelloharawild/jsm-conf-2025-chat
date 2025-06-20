@@ -1,5 +1,5 @@
 title,text
-"Branded Websites, Presentations, Dashboards, and PDFs with Quarto","## Title: Branded Websites, Presentations, Dashboards, and PDFs with Quarto
+"Branded Websites, Presentations, Dashboards, and PDFs with Quarto","## Session Title: Branded Websites, Presentations, Dashboards, and PDFs with Quarto
 
 **Speakers:** 
 Isabella Velásquez , Sr. Product Marketing Manager, Posit  
@@ -9,7 +9,7 @@ Sara Altman , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Hanover DE
 
-**Abstract:**  
+**Session Info:**  
 Join us for a hands-on, one-day workshop at posit::conf(2025), where we’ll explore the versatility of Quarto output formats. Designed for data scientists, analysts, and content creators, this immersive session will teach you how to craft cohesive reports and presentations while refining your workflow with Quarto’s latest features.  
   
 You will learn how to create dynamic websites, professional PDF documents, engaging presentations, and interactive dashboards using Quarto. This workshop highlights Quarto's powerful theming capabilities, including the new support for brand.yml, which ensures that your work maintains a professional and cohesive style across all formats.  
@@ -22,7 +22,7 @@ Use brand.yml to define and apply consistent theming across all outputs.
 Whether you're looking to enhance your personal projects or streamline organizational outputs, this workshop will equip you with the tools to create polished, professional results.  
   
 "
-Causal Inference in R,"## Title: Causal Inference in R
+Causal Inference in R,"## Session Title: Causal Inference in R
 
 **Speakers:** 
 Malcolm Barrett , Research Software Engineer, Stanford University  
@@ -32,7 +32,7 @@ Lucy D'Agostino McGowan , Assistant Professor, Wake Forest University
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Greenbriar
 
-**Abstract:**  
+**Session Info:**  
 In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting.  
   
 In both data science and academic research, prediction modeling is often not enough; to answer many questions, we need to approach them causally. In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting. We’ll also show that by distinguishing predictive models from causal models, we can better take advantage of both tools. You’ll be able to use the tools you already know–the tidyverse, regression models, and more–to answer the questions that are important to your work.  
@@ -41,7 +41,7 @@ This workshop is for you if you:
 know how to fit a linear regression model in R,  
 have a basic understanding of data manipulation and visualization using tidyverse tools, and  
 are interested in understanding the fundamentals behind how to move from estimating correlations to causal relationships."
-Data Science Workflows with Posit Tools - R Focus,"## Title: Data Science Workflows with Posit Tools - R Focus
+Data Science Workflows with Posit Tools - R Focus,"## Session Title: Data Science Workflows with Posit Tools - R Focus
 
 **Speakers:** 
 Katie Masielo , Solutions Engineer, Posit  
@@ -51,7 +51,7 @@ Ryan Johnson , Data Science Advisor, Posit, PBC
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy E
 
-**Abstract:**  
+**Session Info:**  
 In this R-focused workshop, we will discuss ways to improve your data science workflows! During the course, we will review packages for data validation, alerting, modeling, and more. We’ll use Posit’s open source and professional tools to string all the pieces together for an efficient workflow. We’ll discuss environments, managing deployed content, working with databases, and interoperability across data products.  
   
 This course is for you if you:  
@@ -62,7 +62,7 @@ Want to improve interoperability between data products in your work or on your t
 Have experience developing in R. An analogous course with a Python focus is also offered.  
   
 "
-Data Science Workflows with Posit Tools - Python Focus,"## Title: Data Science Workflows with Posit Tools - Python Focus
+Data Science Workflows with Posit Tools - Python Focus,"## Session Title: Data Science Workflows with Posit Tools - Python Focus
 
 **Speakers:** 
 Sam Edwardes , Senior Solutions Engineer, Posit  
@@ -72,7 +72,7 @@ Michael Beigelmacher , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy F
 
-**Abstract:**  
+**Session Info:**  
 This Python-focused workshop will discuss ways to improve your data science workflows! During the course, we will review packages for data validation, alerting, modelling, and more. We’ll use Posit’s open-source and professional tools to string all the pieces together for an efficient workflow. We’ll discuss environments, managing deployed content, working with databases, and interoperability across data products.  
   
 This course is for you if you:  
@@ -83,7 +83,7 @@ Want to improve interoperability between data products in your work or on your t
 Have experience developing in Python. An analogous course with an R focus is also offered  
   
 "
-Data Talks: How to make your data science accessible,"## Title: Data Talks: How to make your data science accessible
+Data Talks: How to make your data science accessible,"## Session Title: Data Talks: How to make your data science accessible
 
 **Speakers:** 
 Blythe Coons , Executive Speech Coach, Articulation  
@@ -93,7 +93,7 @@ Acacia Duncan , Director of Coaching and Training, Articulation
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy B
 
-**Abstract:**  
+**Session Info:**  
 Data insights won’t speak for themselves.  
   
 For the past five years, Articulation has been coaching all of the breakout session, keynote, and lightning talk speakers at posit::conf. We’ve heard time and again that the final leg of the data journey, communicating your data insights, is incredibly difficult. Being able to speak about your insights with clarity to non-data stakeholders can be the difference between your hard work leading to change and action or leading nowhere at all.  
@@ -110,7 +110,7 @@ Strategies for laddering complex insights
 Who it’s for: You’re a mid-senior-level leader who needs to translate complex insights into actionable communications. You often find yourself presenting to non-data colleagues (C-Suite, HR, Sales, Finance, etc.). Your data skills are top-notch, and you want to make a bigger impact by improving your data communication.  
   
 About Articulation: Articulation is more than just a public speaking training and executive coaching company. We see ourselves as a service to communities and organizations — large and small, public and private — that can help their executives and rising stars become better storytellers and better public speakers. Our clients come from Fortune 500 companies, internationally recognized education and research institutions, philanthropic organizations, and entrepreneurs eager to grow their businesses. Individuals from across the business spectrum also turn to us to obtain the presentation, public speaking, and storytelling skills to advance their careers and lead the people and companies they work for."
-Deploying reproducible analytics environments for regulated use cases,"## Title: Deploying reproducible analytics environments for regulated use cases
+Deploying reproducible analytics environments for regulated use cases,"## Session Title: Deploying reproducible analytics environments for regulated use cases
 
 **Speakers:** 
 James Black , Executive Director, Technology and Scientific Computing, Novartis  
@@ -124,7 +124,7 @@ Michael Mayer , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** International South
 
-**Abstract:**  
+**Session Info:**  
 The deployment of reproducible analytical environments is a critical topic in the regulated industries, especially for meeting regulatory requirements and ensuring reproducibility in research. This workshop aims to explore the multifaceted challenges and opportunities associated with provisioning and deploying R-based environments, drawing from experiences of deploying enterprise-scale analytical environments for regulatory filings.  
   
 Our session will address the following key questions and themes:  
@@ -141,7 +141,7 @@ The workshop will blend insight from those who have navigated these challenges w
 Join us for a robust discussion to share experiences, identify best practices, and contribute to a collective understanding of deploying validated R packages in a compliant and efficient manner within highly regulated industries.  
   
 Target Audience: This workshop is ideal for data scientists, statisticians, IT professionals, and regulatory compliance experts interested in deploying R packages in highly regulated environments."
-End-to-End Submissions in R with the Pharmaverse,"## Title: End-to-End Submissions in R with the Pharmaverse
+End-to-End Submissions in R with the Pharmaverse,"## Session Title: End-to-End Submissions in R with the Pharmaverse
 
 **Speakers:** 
 Becca Krouse , GSK  
@@ -151,9 +151,9 @@ Daniel Sjoberg , Genentech
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** International North
 
-**Abstract:**  
+**Session Info:**  
 Ready to optimize your regulatory submission process? This workshop offers a practical, end-to-end introduction to using R for a streamlined workflow from raw data to tables, listings, and graphs (TLGs). We'll dive into the power of key R packages from the Pharmaverse, starting with SDTM data preparation; learn to effortlessly map, transform, and validate your data to CDISC standards, ensuring both quality and compliance. Next, create ADaM datasets using modular and pipe-able syntax. Finally, get ready to generate compelling TLGs supported by Analysis Results Datasets (ARDs). We'll explore techniques for producing publication-ready output, customized to meet your specific reporting needs. Walk away with the skills to confidently use R for every stage of the submission process."
-Exploratory Data Analysis with Python Polars,"## Title: Exploratory Data Analysis with Python Polars
+Exploratory Data Analysis with Python Polars,"## Session Title: Exploratory Data Analysis with Python Polars
 
 **Speakers:** 
 Jeroen Janssens , Posit
@@ -161,7 +161,7 @@ Jeroen Janssens , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy D
 
-**Abstract:**  
+**Session Info:**  
 Join us for a hands-on workshop focused on Polars, a high-performance data processing package for Python. We’ll dive into Polars’ powerful features and show you how to use it for real-world tasks like data wrangling, exploratory data analysis, and building pipelines. Whether you’re new to Polars or looking to transition from other packages like pandas, this workshop will help you quickly master its expressive API and underlying concepts.  
   
 You’ll learn how to:  
@@ -172,7 +172,7 @@ Work with complex data types, including time, text, and nested structures
 Visualize DataFrames with packages like Altair, plotnine, and Great Tables  
   
 This workshop is ideal for data scientists and data engineers looking to enhance their workflows and improve performance at scale. By the end, you’ll understand why everybody says: Polars come for the speed, stay for the syntax."
-Extending Quarto,"## Title: Extending Quarto
+Extending Quarto,"## Session Title: Extending Quarto
 
 **Speakers:** 
 Mine Cetinkaya-Rundel , Professor + Developer Educator, Posit  
@@ -182,7 +182,7 @@ Charlotte Wickham , Developer Educator, Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** The Learning Center
 
-**Abstract:**  
+**Session Info:**  
 In this workshop, we will dive deep into ways of customizing your Quarto outputs with tooling beyond built-in features. This workshop is designed for data scientists, analysts, and technical writers looking to extend Quarto's capabilities to suit their unique workflows better.  
   
 Participants will learn how to create custom extensions, including new formats, templates, and filters, to enhance their document production process. Through hands-on exercises and real-world examples, you'll gain practical skills in:  
@@ -194,7 +194,7 @@ Implementing filters to automate and streamline content transformation.
 By the end of the workshop, you will be able to leverage Quarto's extensibility to create powerful, tailored solutions for your documentation needs. Whether you have just worked on a few Quarto projects or are an everyday user, this workshop will equip you with the tools and knowledge to take your document workflows to the next level.  
   
 "
-From R User to R Programmer,"## Title: From R User to R Programmer
+From R User to R Programmer,"## Session Title: From R User to R Programmer
 
 **Speakers:** 
 Emma Rand , Professor, University of York  
@@ -204,7 +204,7 @@ Ian Lyttle , Data Scientist, Schneider Electric
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Baker
 
-**Abstract:**  
+**Session Info:**  
 This is a one-day, hands-on workshop for intermediate R users who use the tidyverse and want to improve and reduce the amount of duplication in their code. You will learn the two main ways to reduce duplication: creating functions and using iteration.  
   
 We will use a tidyverse approach to cover function design and iteration. When writing a function, you will learn how to deal with “data masking,” give default values to arguments, give unspecified arguments, and what side effects are and how to manage them. In the afternoon, you will learn how to iterate across the columns of a data frame using across(), what “anonymous” functions are, and how to read and write multiple files using purrr.  
@@ -215,7 +215,7 @@ feel comfortable with the Whole game part of R for Data Science
 want to learn how to write functions and use iteration to reduce duplication in your code  
   
 "
-Getting More Out of Feature Engineering and Tuning for Machine Learning,"## Title: Getting More Out of Feature Engineering and Tuning for Machine Learning
+Getting More Out of Feature Engineering and Tuning for Machine Learning,"## Session Title: Getting More Out of Feature Engineering and Tuning for Machine Learning
 
 **Speakers:** 
 Max Kuhn , Principal Software Engineer, Posit  
@@ -225,7 +225,7 @@ Emil Hvitfeldt , Software Engineer, Posit PBC
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 In this workshop, you will learn more advanced methods for building better models.  
   
 Feature engineering is a method of representing your data in a way that makes the model work best. We’ll talk about how to use recipes to engineer features and a few specific methods, such as splines for nonlinear features and effect encodings for high cardinality predictors. We’ll also show how to optimize model performance by choosing the best tuning parameters. The focus is on grid search and hyper-efficient racing methods. Time permitting, we’ll also discuss the simultaneous evaluation of many combinations of pre-processors, models, and post-processors using workflow sets.  
@@ -233,7 +233,7 @@ Feature engineering is a method of representing your data in a way that makes th
 This course is focused on the analysis of tabular data and does not include deep learning methods.  
   
 "
-Introduction to machine learning in R with tidymodels,"## Title: Introduction to machine learning in R with tidymodels
+Introduction to machine learning in R with tidymodels,"## Session Title: Introduction to machine learning in R with tidymodels
 
 **Speakers:** 
 Hannah Frick , Senior Software Engineer, Posit  
@@ -243,13 +243,13 @@ Simon P. Couch , Software Engineer, Posit, PBC
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 This workshop will teach you the fundamentals of predictive modeling with core tidymodels packages: data splitting/resampling with rsample, model fitting with parsnip, measuring model performance with yardstick, and model optimization using the tune package. Time permitting, you'll be introduced to basic pre-processing with recipes.  
   
 In this workshop, you'll learn the process of predictive modeling for tabular data and tidymodels syntax to put it into practice.  
   
 "
-Machine learning with scikit-learn in Python,"## Title: Machine learning with scikit-learn in Python
+Machine learning with scikit-learn in Python,"## Session Title: Machine learning with scikit-learn in Python
 
 **Speakers:** 
 Tiffany Timbers , Associate Professor of Teaching, University of British Columbia  
@@ -259,9 +259,9 @@ Katie Burak , Assistant Professor of Teaching, University of British Columbia
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Hanover FG
 
-**Abstract:**  
+**Session Info:**  
 This workshop will teach you how to perform machine learning for prediction in Python using the widely-used Scikit-learn learn package. You will be introduced to best practices for machine learning model creation and selection, including data splitting, pre-processing, parameter and model optimization, as well as results visualization and communication. Workshop examples will begin with simple, intuitive models (e.g., K-nearest neighbors, linear regression) but also demonstrate the use of more commonly used and industry standard models (e.g., ensemble methods such as random forest and boosting). The workshop will focus on demonstrating how to do this using the modern Scikit-learn pipeline syntax."
-Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices,"## Title: Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices
+Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices,"## Session Title: Mastering Data Visualization with ggplot2: Latest Techniques and Best Practices
 
 **Speakers:** 
 Thomas Lin Pedersen , Software Engineer, Posit  
@@ -271,7 +271,7 @@ Teun Van den Brand , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Hanover AB
 
-**Abstract:**  
+**Session Info:**  
 This workshop will explore the cutting-edge advancements and best practices in data visualization using ggplot2. This workshop is designed for data enthusiasts, analysts, and researchers who are eager to elevate their visual data storytelling skills. This workshop will be relevant to both ggplot2 users as well as package authors that somehow extend ggplot2 in their packages.  
   
 Throughout the day, participants will:  
@@ -284,7 +284,7 @@ Multifigure Plot Compositions: Utilize the latest features of patchwork to creat
 By the end of this workshop, you'll have a comprehensive understanding of the latest tools and techniques in ggplot2, empowering you to create compelling and insightful data visualizations. Whether you're a user or a package developer, this workshop will provide valuable insights and skills to enhance your data visualization toolkit.  
   
 "
-Modern Data Platforms with Posit for R & Python Users,"## Title: Modern Data Platforms with Posit for R & Python Users
+Modern Data Platforms with Posit for R & Python Users,"## Session Title: Modern Data Platforms with Posit for R & Python Users
 
 **Speakers:** 
 James Blair , Posit
@@ -292,7 +292,7 @@ James Blair , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Dunwoody
 
-**Abstract:**  
+**Session Info:**  
 As organizations increasingly rely on scalable cloud and database solutions, data practitioners must seamlessly integrate R and Python workflows with modern data platforms. This hands-on workshop will teach participants how to leverage Posit’s suite of open-source and commercial tools to efficiently connect, analyze, and deploy insights using Snowflake, Databricks, and DuckDB.  
   
 Through practical examples and live coding, attendees will learn:  
@@ -302,7 +302,7 @@ How to streamline development and deployment using Posit Workbench, Connect, and
 How to leverage GenAI models provided by modern data platforms to enhance data workflows and insights.  
   
 This workshop is designed for data scientists, analysts, and engineers using R or Python who want to enhance their workflows with cloud and database platforms. By the end of this workshop, participants will have a solid foundation in using Posit tools to work with enterprise-scale data solutions—empowering them to build, share, and deploy insights faster."
-Package Development: The Rest of the Owl,"## Title: Package Development: The Rest of the Owl
+Package Development: The Rest of the Owl,"## Session Title: Package Development: The Rest of the Owl
 
 **Speakers:** 
 Jenny Bryan , Software engineer, Posit
@@ -310,7 +310,7 @@ Jenny Bryan , Software engineer, Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Hanover C
 
-**Abstract:**  
+**Session Info:**  
 In R, the fundamental unit of reusable and shareable code is a package containing helpful functions, documentation, and sometimes sample data. Putting R code in a package is the best way to share our code with others or to share code across different projects.  
   
 This workshop assumes you've already dipped your toe in package development, i.e. that you've managed to create a basic package and pass `R CMD check`. In terms of ""How to draw an owl"", you've definitely drawn some circles.  
@@ -344,7 +344,7 @@ We typically see a real mix of backgrounds in workshops such as this.
 Participants at either extreme (very new or very experienced) should anticipate hearing questions and discussion aimed at the other end of the experience spectrum, and that's OK.  
   
 "
-Programming with LLM APIs: A Beginner’s Guide in R and Python,"## Title: Programming with LLM APIs: A Beginner’s Guide in R and Python
+Programming with LLM APIs: A Beginner’s Guide in R and Python,"## Session Title: Programming with LLM APIs: A Beginner’s Guide in R and Python
 
 **Speakers:** 
 Joe Cheng , Posit  
@@ -354,7 +354,7 @@ Garrick Aden-Buie , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 Large Language Models (LLMs) open up a world of programmatic possibilities, giving developers easy access to capabilities that would have seemed like science fiction only a few years ago. But for many, the idea of integrating LLM APIs into their workflows feels daunting. This workshop is here to show you otherwise.  
   
 We’ll introduce you to elmer (R) and chatlas (Python), two user-friendly packages developed by Posit that make calling LLMs from code surprisingly straightforward. These tools handle the complexities of conversation history, tool calling, vision support, and more, so you can focus on experimentation and creativity. They also integrate nicely with Shiny for R and Python, where you can easily create chat interfaces or build custom web apps around LLM workflows.  
@@ -370,7 +370,7 @@ This workshop is perfect for those curious about AI but unsure where to start, a
 If you’ve been sitting on the fence, wondering whether LLMs are worth diving into, this workshop will give you the hands-on experience and confidence you need to get started.  
   
 "
-R in Production,"## Title: R in Production
+R in Production,"## Session Title: R in Production
 
 **Speakers:** 
 Hadley Wickham , Posit
@@ -378,7 +378,7 @@ Hadley Wickham , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 What it means to put R in production varies tremendously from organization to organization. However, I believe that there are common principles that you can learn to improve your code, regardless of the precise details of what production means for your organization.  
   
 This workshop is organized around three big differences between running a local script on your computer and putting your code into production:  
@@ -392,7 +392,7 @@ Struggle to keep your code running reliably as packages and data change over tim
 Want to improve the quality of your production code generally.  
   
 "
-Shiny for Python,"## Title: Shiny for Python
+Shiny for Python,"## Session Title: Shiny for Python
 
 **Speakers:** 
 Daniel Chen , Posit
@@ -400,7 +400,7 @@ Daniel Chen , Posit
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Embassy C
 
-**Abstract:**  
+**Session Info:**  
 Shiny is a framework for building web applications and data dashboards in Python. In this one-day intermediary workshop, you will see how the basic building blocks of Shiny can be extended to create your own scalable, production-ready Python applications.  
   
 In particular, this workshop covers:  
@@ -429,7 +429,7 @@ We believe that Shiny is the best framework for building data applications in Py
 4. I’m an expert with Shiny for R, is this workshop for me?  
   
 The R and Python Shiny packages are similar, so some of the content in this workshop may be familiar to you. That said, it’s a great opportunity to fill in missing pieces and ask questions about Python best practices. We will also talk about Shiny modules and testing in this workshop, which will also be a precursor for you to learn more about Python Packaging. If you are interested in learning more about Python, this workshop would be a great practical way to learn how to code in Python. Check out ourquickstart guide for R usersandthis tutorialif you want to get up to speed with Shiny for Python quickly."
-Shiny for R,"## Title: Shiny for R
+Shiny for R,"## Session Title: Shiny for R
 
 **Speakers:** 
 Colin Rundel , Associate Professor of the Practice, Duke University
@@ -437,11 +437,11 @@ Colin Rundel , Associate Professor of the Practice, Duke University
 **Time:** Tuesday, Sep 169:00 AM - 5:00 PM EDT  
 **Location:** Courtland
 
-**Abstract:**  
+**Session Info:**  
 Shiny is an R package that makes it easy to build interactive web apps straight from R. This workshop will start at the beginning: designing and implementing user interfaces, learning and understanding the reactive programming model, and deploying your Shiny apps publicly and privately. This year, we will also introduce the use of the bslib package to modernize your apps' layouts and components. The workshop will also include several intermediate-level topics like debugging and modularizing your apps and implementing dynamic user interfaces. In the end, attendees should be confident Shiny users, able to design interactive apps to achieve their purpose and produce a polished and professional implementation.  
   
 "
-Welcome Reception,"## Title: Welcome Reception
+Welcome Reception,"## Session Title: Welcome Reception
 
 **Speakers:** 
 TBA
@@ -449,9 +449,9 @@ TBA
 **Time:** Tuesday, Sep 165:00 PM - 7:00 PM EDT  
 **Location:** LL2 - Pre-function area
 
-**Abstract:**  
+**Session Info:**  
 Session details will be released soon, stay tuned!"
-Keynote Session,"## Title: Keynote Session
+Keynote Session,"## Session Title: Keynote Session
 
 **Speakers:** 
 Jonathan McPherson , Software Architect, Posit Software, PBC
@@ -459,9 +459,9 @@ Jonathan McPherson , Software Architect, Posit Software, PBC
 **Time:** Wednesday, Sep 179:00 AM - 10:00 AM EDT  
 **Location:** Centennial Ballroom
 
-**Abstract:**  
+**Session Info:**  
 Stay tuned, more details to come soon!"
-LLMs with R and Python,"## Title: LLMs with R and Python
+LLMs with R and Python,"## Session Title: LLMs with R and Python
 
 **Speakers:** 
 Rebecca Barter , Research Assistant Professor, University of Utah  
@@ -475,7 +475,7 @@ Timothy Keyes , Data Scientist, Stanford Health Care
 **Time:** Wednesday, Sep 1710:20 AM - 11:40 AM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 AI Coding Assistants: Hype, Help, or Hindrance?  
@@ -483,7 +483,7 @@ AskRADS: An AI Recommendation Agent for Maximizing the ROI of Data Science Colla
 Is that LLM feature any good?  
 Trust, but Verify: Lessons from Deploying LLMs in a Large Health System  
  "
-Pedagogy as Software,"## Title: Pedagogy as Software
+Pedagogy as Software,"## Session Title: Pedagogy as Software
 
 **Speakers:** 
 Claus Wilke , Professor, The University of Texas at Austin  
@@ -497,7 +497,7 @@ Mine Cetinkaya-Rundel , Professor + Developer Educator, Posit
 **Time:** Wednesday, Sep 1710:20 AM - 11:40 AM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Teaching data visualization with R entirely in Quarto  
@@ -505,7 +505,7 @@ ChalkTalk: Globalizing Data Science Education with AI-generated Videos
 Empowering Learners with WebR, Pyodide, and Quarto  
 Leveraging LLMs for student feedback in introductory data science courses  
  "
-Positron,"## Title: Positron
+Positron,"## Session Title: Positron
 
 **Speakers:** 
 Austin Dickey , Senior Software Engineer, Posit, PBC  
@@ -521,7 +521,7 @@ Isabel Zimmerman
 **Time:** Wednesday, Sep 1710:20 AM - 11:40 AM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Outgrowing Your Laptop with Positron  
@@ -529,7 +529,7 @@ Exploring Datasets in Positron
 Tips & tricks from the maintainers of Positron  
 IDE-ntity Crisis: Choosing the Right Tool for Me  
  "
-Shiny for Humans,"## Title: Shiny for Humans
+Shiny for Humans,"## Session Title: Shiny for Humans
 
 **Speakers:** 
 Kim Schouten , Data scientist, Nederlandse Zorgautoriteit (Dutch Healthcare Authority)  
@@ -549,14 +549,14 @@ Maya Gans , Associate Director, Atorus Research
 **Time:** Wednesday, Sep 1710:20 AM - 11:40 AM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Modular, layout-as-code approach for customizable Shiny dashboards  
 shinyGovStyle - accessible government design in RShiny  
 Death by Dropdown? How to Build Shiny Apps That Guide—Not Overwhelm—Your Users  
 Design of Everyday Shiny Apps"
-Lunch,"## Title: Lunch
+Lunch,"## Session Title: Lunch
 
 **Speakers:** 
 TBA
@@ -564,9 +564,9 @@ TBA
 **Time:** Wednesday, Sep 1711:40 AM - 1:00 PM EDT  
 **Location:** TBD
 
-**Abstract:**  
+**Session Info:**  
 Join your fellow posit::conf attendees for a networking lunch!"
-Get the Latest on Posit's Commercial Products,"## Title: Get the Latest on Posit's Commercial Products
+Get the Latest on Posit's Commercial Products,"## Session Title: Get the Latest on Posit's Commercial Products
 
 **Speakers:** 
 Kelly O'Briant  
@@ -586,9 +586,9 @@ Steve Nolen , Engineering Manager, Posit
 **Time:** Wednesday, Sep 171:00 PM - 2:20 PM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 Join us for an overview of the latest developments across Posit’s commercial product ecosystem. This session will cover Posit Workbench, Package Manager, Connect, Connect Cloud, and our growing portfolio of managed services including Snowflake and beyond. Hear directly from the product managers and engineers who are building these tools, and get insights into what’s coming next."
-Learning by Doing,"## Title: Learning by Doing
+Learning by Doing,"## Session Title: Learning by Doing
 
 **Speakers:** 
 Ryan Johnson , Data Science Advisor, Posit, PBC  
@@ -602,7 +602,7 @@ Kristin Bott , Manager, Data Science Mentors, Posit Academy, Posit, PBC
 **Time:** Wednesday, Sep 171:00 PM - 2:20 PM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Positron for Babies  
@@ -610,10 +610,10 @@ Teaching Data Sharing through R Data Packages
 From Solo to Social: Making Coding a Collaborative Adventure  
 On teaching adults to code  
  "
-Lightning Talks,"## Title: Lightning Talks
+Lightning Talks,"## Session Title: Lightning Talks
 
 **Speakers:** 
-Sharon Machlis , Retired (but still freelance), Formerly Computerworld & InfoWorld  
+Sharon Machlis , Retired/Occasional Freelance Writer, Former Computerworld & InfoWorld  
   
 Cari Gostic , Air Quality Data Scientist, Sonoma Technology  
   
@@ -644,7 +644,7 @@ Carlos Scheidegger
 **Time:** Wednesday, Sep 171:00 PM - 2:20 PM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 12 five-minute talks in this session.  
   
 Use Your Data Skills for Good: Ideas for Community Service  
@@ -659,7 +659,7 @@ Putting an {ellmer} AI in production with the blessing of IT
 Enabling geospatial workflow management with targets: an R package origin story  
 Plotgardener – Genomic Data Visualization Made Easy  
 What we're doing to make Quarto fast(er)"
-Shiny New Tricks,"## Title: Shiny New Tricks
+Shiny New Tricks,"## Session Title: Shiny New Tricks
 
 **Speakers:** 
 Karan Gathani , Software QA Engineer, Posit PBC  
@@ -673,7 +673,7 @@ Eric Nantz , Statistician, Eli Lilly
 **Time:** Wednesday, Sep 171:00 PM - 2:20 PM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Old Apps, New Tricks: How AI can write Automated Tests for your Shiny Apps  
@@ -681,7 +681,7 @@ Playing nice with ecosystems: cross-platform anywidgets for interactive computin
 Teaching Shiny Assistant Kung-Fu  
 shinystate: Launching collaboration and session management to new heights in Shiny applications  
  "
-Get Your Ducks in a Row with Databases,"## Title: Get Your Ducks in a Row with Databases
+Get Your Ducks in a Row with Databases,"## Session Title: Get Your Ducks in a Row with Databases
 
 **Speakers:** 
 Kirill Müller , Partner, cynkra GmbH  
@@ -695,14 +695,14 @@ Melissa Albino Hegeman , Data Analyst, NYS OGS
 **Time:** Wednesday, Sep 172:40 PM - 4:00 PM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 duckplyr: Analyze large data with full dplyr compatibility  
 Semantic Search for the Rest of Us with DuckDB  
 Keeping Data Alive: Persistent Storage Options for Dynamic Cloud Applications  
 Get your ducks in a row... faster Shiny apps with DuckDB"
-Put It In Production,"## Title: Put It In Production
+Put It In Production,"## Session Title: Put It In Production
 
 **Speakers:** 
 Joe Kirincic , Principal Data Scientist  
@@ -716,7 +716,7 @@ Jonathan Keane , Senior Engineering Manager, Posit, PBC
 **Time:** Wednesday, Sep 172:40 PM - 4:00 PM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Lift Off! Building REST APIs that Fly  
@@ -724,12 +724,12 @@ Building Governable ML Models with R
 Producethis: Automate project and deployment setup  
 Oops! I accidentally made a production dashboard  
  "
-Quarto,"## Title: Quarto
+Quarto,"## Session Title: Quarto
 
 **Speakers:** 
 John Paul Helveston , Assistant Professor, George Washington University  
   
-Keaton Wilson , KS&R  
+Keaton Wilson , Solutions Developer, KS&R  
   
 Becca Krouse , Data Science Leader, GSK  
   
@@ -738,7 +738,7 @@ Christophe Dervieux
 **Time:** Wednesday, Sep 172:40 PM - 4:00 PM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 surveydown: A Markdown-Based Platform for Interactive and Reproducible Surveys Using Quarto and Shiny  
@@ -746,7 +746,7 @@ Using Quarto to Improve Formatting and Automate the Generation of Hundreds of Re
 Instant Impact: Developing {docorator} to Simplify R Adoption for Teams  
 Beyond the Basics: Expanding Quarto's Capabilities with Lua  
  "
-Sparking Development Joy,"## Title: Sparking Development Joy
+Sparking Development Joy,"## Session Title: Sparking Development Joy
 
 **Speakers:** 
 Libby McKenna , Water Process Engineer, Brown and Caldwell  
@@ -762,14 +762,14 @@ Michael Chow
 **Time:** Wednesday, Sep 172:40 PM - 4:00 PM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Enemies to lovers: How non-programmers can make sparks fly when using testthat during package development  
 Air - A blazingly fast R code formatter  
 Making Things Nice in Python  
 The Curse of Documentation"
-Keynote Session,"## Title: Keynote Session
+Keynote Session,"## Session Title: Keynote Session
 
 **Speakers:** 
 Kieran Healy , Professor, Duke University
@@ -777,9 +777,9 @@ Kieran Healy , Professor, Duke University
 **Time:** Wednesday, Sep 174:15 PM - 5:15 PM EDT  
 **Location:** Centennial Ballroom
 
-**Abstract:**  
+**Session Info:**  
 Stay tuned, more details to come soon!"
-Evening Event,"## Title: Evening Event
+Evening Event,"## Session Title: Evening Event
 
 **Speakers:** 
 TBA
@@ -787,9 +787,9 @@ TBA
 **Time:** Wednesday, Sep 177:00 PM - 9:00 PM EDT  
 **Location:** TBD
 
-**Abstract:**  
+**Session Info:**  
 Session details will be released soon, stay tuned!"
-Keynote Session,"## Title: Keynote Session
+Keynote Session,"## Session Title: Keynote Session
 
 **Speakers:** 
 Cat Hicks , Psychologist for Software Teams, Catharsis Consulting
@@ -797,9 +797,9 @@ Cat Hicks , Psychologist for Software Teams, Catharsis Consulting
 **Time:** Thursday, Sep 189:00 AM - 10:00 AM EDT  
 **Location:** Centennial Ballroom
 
-**Abstract:**  
+**Session Info:**  
 Stay tuned, more details to come soon!"
-Data for Real-World Impact,"## Title: Data for Real-World Impact
+Data for Real-World Impact,"## Session Title: Data for Real-World Impact
 
 **Speakers:** 
 Kylie Ainslie , Senior Researcher, Dutch National Institute of Public Health and the Environment (RIVM)  
@@ -815,7 +815,7 @@ Andrew Heiss , Assistant professor, Georgia State University
 **Time:** Thursday, Sep 1810:20 AM - 11:40 AM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Elevating Public Health Decision-Making with R Packages  
@@ -823,7 +823,7 @@ Data 911: how Posit can support decision-makers in times of environmental crisis
 See if talking to the doctor is right for you.  
 Election Night Reporting Using R & Quarto  
  "
-I Like Big Orgs and I Cannot Lie,"## Title: I Like Big Orgs and I Cannot Lie
+I Like Big Orgs and I Cannot Lie,"## Session Title: I Like Big Orgs and I Cannot Lie
 
 **Speakers:** 
 Clara Amorosi , Principal Data Scientist, Bristol Myers Squibb  
@@ -837,7 +837,7 @@ Katerina Gapanenko , Manager, Advanced Analytics, Canadian Institute for Health 
 **Time:** Thursday, Sep 1810:20 AM - 11:40 AM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Data-as-a-product: A framework for collaborative data wrangling  
@@ -845,7 +845,7 @@ SAS to R: It’s more than just coding
 What R We Counting?  
 A tale of one organization: learning how to swim in the ocean of open source  
  "
-Strengthening the R Ecosystem,"## Title: Strengthening the R Ecosystem
+Strengthening the R Ecosystem,"## Session Title: Strengthening the R Ecosystem
 
 **Speakers:** 
 Andrés Quintero , Data Professional, ixpantia  
@@ -859,7 +859,7 @@ Charlie Gao , Senior Software Engineer, Posit
 **Time:** Thursday, Sep 1810:20 AM - 11:40 AM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Purrrfectly parallel, purrrfectly distributed  
@@ -867,7 +867,7 @@ R-multiverse: a next-generation R package repository system built on R-universe
 How to make {renv} actually work  
 Extending the horizons of R with Rust  
  "
-The Power of Presentation,"## Title: The Power of Presentation
+The Power of Presentation,"## Session Title: The Power of Presentation
 
 **Speakers:** 
 James Wade , Research Scientist, Dow  
@@ -881,7 +881,7 @@ Garrick Aden-Buie , Posit
 **Time:** Thursday, Sep 1810:20 AM - 11:40 AM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Disposable Shiny Apps  
@@ -889,7 +889,7 @@ Quarto for Business Collaboration and Technical Documentation in Word docx forma
 Talk data to me: How to present youR data to any audience  
 Theming Made Easy: Introducing brand.yml  
  "
-Lunch,"## Title: Lunch
+Lunch,"## Session Title: Lunch
 
 **Speakers:** 
 TBA
@@ -897,9 +897,9 @@ TBA
 **Time:** Thursday, Sep 1811:40 AM - 1:00 PM EDT  
 **Location:** TBD
 
-**Abstract:**  
+**Session Info:**  
 Join your fellow posit::conf attendees for a networking lunch!"
-"Beautiful, Effective, and Accessible Data Visualization","## Title: Beautiful, Effective, and Accessible Data Visualization
+"Beautiful, Effective, and Accessible Data Visualization","## Session Title: Beautiful, Effective, and Accessible Data Visualization
 
 **Speakers:** 
 Simisani Ndaba , Teaching Assistant | Data Science Research Assistant, University of Botswana  
@@ -913,14 +913,14 @@ Olivia Hebner , Data Science Manager, Summit Consulting
 **Time:** Thursday, Sep 181:00 PM - 2:20 PM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 History repeats itself: What the Du Bois Challenge taught me about reproducing visualisations  
 Visualizing Nuuk: Finding Narrative in Public Registers  
 maidr: Empowering Accessible, Multimodal Data Visualizations  
 Same Data, Different Tools: Visualizing with R and Python"
-Facepalm-driven Development: Learning From AI and Human Errors,"## Title: Facepalm-driven Development: Learning From AI and Human Errors
+Facepalm-driven Development: Learning From AI and Human Errors,"## Session Title: Facepalm-driven Development: Learning From AI and Human Errors
 
 **Speakers:** 
 Julia Silge , Engineering Manager, Posit, PBC  
@@ -934,7 +934,7 @@ Laura Gast , Enterprise Data & Analytics Lead, USO
 **Time:** Thursday, Sep 181:00 PM - 2:20 PM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 How I got unstuck with Python  
@@ -942,7 +942,7 @@ Hacking Productivity with LLMs: What Works (and What Doesn’t)
 AI missteps as stepping stones: Opportunities gained when your LLM coding assistant gets it wrong  
 Failure (and Mistakes)  
  "
-Machine Learning and Statistical Modelling,"## Title: Machine Learning and Statistical Modelling
+Machine Learning and Statistical Modelling,"## Session Title: Machine Learning and Statistical Modelling
 
 **Speakers:** 
 Hugo Fitipaldi , Postdoctoral Research Fellow, Lund University  
@@ -956,7 +956,7 @@ Myles Mitchell , Principal Data Scientist, Jumping Rivers
 **Time:** Thursday, Sep 181:00 PM - 2:20 PM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Building a Real-Time COVID-19 Surveillance System with R: Lessons from the COVID Symptom Study Sweden  
@@ -964,7 +964,7 @@ An R package to run millions of models
 Precision Medicine for All: Using Tidymodels to Validate PRS in Brazil  
 Demystifying MLOps with Vetiver  
  "
-Teaming Up with Posit Products,"## Title: Teaming Up with Posit Products
+Teaming Up with Posit Products,"## Session Title: Teaming Up with Posit Products
 
 **Speakers:** 
 Kris Fabick , Data Scientist, Nissan North America  
@@ -980,14 +980,14 @@ Rachael Dempsey
 **Time:** Thursday, Sep 181:00 PM - 2:20 PM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Bilingual Machine Learning with Vetiver and Connect  
 Advancing Epigenetic Predictors with Scalable Machine Learning: A Biologist’s Perspective on Efficient Model Development  
 Automating for Consistency  
 Data Science Hangout at posit::conf(2025)"
-Enterprise Data Platforms,"## Title: Enterprise Data Platforms
+Enterprise Data Platforms,"## Session Title: Enterprise Data Platforms
 
 **Speakers:** 
 Mark Neal , Head of Data Science, DairyNZ  
@@ -1003,14 +1003,14 @@ Rafi Kurlansik
 **Time:** Thursday, Sep 182:40 PM - 4:00 PM EDT  
 **Location:** Regency VI
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Championing modern science workflows to benefit dairy farmers  
 The Power of Snowflake and Posit Workbench: Macroeconomic Data Exploration in the Cloud  
 From Framework to Function: Integrating AI, Data Science Platforms, and Psychological Safety  
 From SDKs to Agents: Building with R and Python on Databricks"
-It Takes a Village: Building and Sustaining Communities,"## Title: It Takes a Village: Building and Sustaining Communities
+It Takes a Village: Building and Sustaining Communities,"## Session Title: It Takes a Village: Building and Sustaining Communities
 
 **Speakers:** 
 Melissa Van Bussel , Senior Data Scientist, Statistics Canada  
@@ -1024,14 +1024,14 @@ Noam Ross , Executive Director, rOpenSci
 **Time:** Thursday, Sep 182:40 PM - 4:00 PM EDT  
 **Location:** Centennial I
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Running a polyglot data science community  
 Translating R for Data Science into Portuguese: A Community-Led Initiative  
 Representation Matters: An Atlas of Inspiring Hispanic/Latinx Scientists  
 rOpenSci Champions: Building Communities of Open-Source Leaders"
-Multilingual Data Science,"## Title: Multilingual Data Science
+Multilingual Data Science,"## Session Title: Multilingual Data Science
 
 **Speakers:** 
 Michael Thomas , Chief Data Scientist, Ketchbrook Analytics  
@@ -1045,7 +1045,7 @@ Claudia Penaloza , Data Scientist, Continental Tires
 **Time:** Thursday, Sep 182:40 PM - 4:00 PM EDT  
 **Location:** Regency V
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Building Multilingual Data Science Teams  
@@ -1053,7 +1053,7 @@ Polyglot Data Science: Why and How to Combine R and Python
 When R Met Python: A Meet Cute on Posit Connect  
 R & Python playing nice, in production  
  "
-You Put WHAT in Your Data?,"## Title: You Put WHAT in Your Data?
+You Put WHAT in Your Data?,"## Session Title: You Put WHAT in Your Data?
 
 **Speakers:** 
 Colin S Gillespie , CTO, Jumping Rivers  
@@ -1067,14 +1067,14 @@ Arnav Patel , Quantitative Analyst, Synovus
 **Time:** Thursday, Sep 182:40 PM - 4:00 PM EDT  
 **Location:** Regency VII
 
-**Abstract:**  
+**Session Info:**  
 There are 4 talks in this session.  
   
 Can I trust that package?  
 From Data to Dollars: Improving Medical Billing Accuracy Using Natural Language Processing  
 Bold indicates negative?  
 Zero Tolerance for Dirty Data: A Pointblank Prescription for Data Hygiene"
-Keynote Session,"## Title: Keynote Session
+Keynote Session,"## Session Title: Keynote Session
 
 **Speakers:** 
 Joe Cheng , Posit  
@@ -1084,5 +1084,5 @@ Hadley Wickham , Posit
 **Time:** Thursday, Sep 184:15 PM - 5:15 PM EDT  
 **Location:** Centennial Ballroom
 
-**Abstract:**  
+**Session Info:**  
 Stay tuned, more details to come soon!"

@@ -57,7 +57,7 @@ format_session_as_md <- function(session) {
   room_line <- time_lines[2]
   
   glue::glue("
-## Title: {session$title}
+## Session Title: {session$title}
 
 **Speakers:** 
 {speakers}
@@ -65,7 +65,7 @@ format_session_as_md <- function(session) {
 **Time:** {time_line}  
 **Location:** {room_line}
 
-**Abstract:**  
+**Session Info:**  
 {abstract}
 ")
 }

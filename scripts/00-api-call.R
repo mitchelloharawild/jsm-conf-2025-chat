@@ -91,5 +91,22 @@ result <- process_json(resp_json) |>
   janitor::clean_names() |>
   rename(job_title = jobtitle)
 
+# Reformat result to comply with required chunks df format for ragnar
+result <- result |>
+ mutate( 
+   text = glue::glue( 
+"## Talk title: {title}
+** Talk code: {code}
+
+** Talk abstract:
+{abstract}
+
+** Speaker name: {full_name}
+** Job title: {job_title}
+** Bio: 
+{bio}")
+) |> 
+  select(title, text)
+
 result |>
   write_csv(file.path("data", "posit-conf-2025-abstracts.csv"))
