@@ -57,7 +57,7 @@ format_session_as_md <- function(session) {
   room_line <- time_lines[2]
   
   glue::glue("
-## Title: {session$title}
+## Session Title: {session$title}
 
 **Speakers:** 
 {speakers}
@@ -65,7 +65,7 @@ format_session_as_md <- function(session) {
 **Time:** {time_line}  
 **Location:** {room_line}
 
-**Abstract:**  
+**Session Info:**  
 {abstract}
 ")
 }
@@ -88,7 +88,7 @@ readr::write_csv(
 
 # write last modified date based on CSV as text file
 
-info <- fs::file_info(file.path("data", "posit-conf-2025-sessions.csv"))
+info <- fs::file_info(file.path("data", "posit-conf-2025.ragnar.duckdb"))
 
 last_modified_date <- as.Date(info$modification_time)
 

@@ -3,10 +3,25 @@ library(ellmer)
 library(tibble)
 library(duckdb)
 library(readr)
+library(dplyr)
 
-chunks_df <- readr::read_csv(
+sessions_df <- readr::read_csv(
   file.path("data", "posit-conf-2025-sessions.csv")
 )
+
+abstracts_df <- readr::read_csv(
+  file.path("data", "posit-conf-2025-abstracts.csv")
+)
+
+# join sessions and abstracts and concatenate text and abstract_text
+chunks_df <- sessions_df |>
+  dplyr::left_join(abstracts_df, by = join_by("title" == "session_title")) |>
+  dplyr::mutate(
+    text = paste(text, abstract_text, sep = "\n\n---\n\n")
+  ) |>
+  dplyr::select(title, text) |>
+  dplyr::distinct() |>
+  tibble::as_tibble()
 
 store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
 

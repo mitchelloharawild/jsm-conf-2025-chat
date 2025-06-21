@@ -19,15 +19,22 @@ ragnar_register_tool_retrieve_vss <-
     chat$register_tool(
       ellmer::tool(
         .name = glue::glue("rag_retrieve_from_{store@name}"),
-        function(text) {
-          ragnar::ragnar_retrieve_vss(store, text, ...)$text |>
-            stringi::stri_flatten("\n\n---\n\n")
+        function(text, status_ignore_workshops = status_ignore_workshops) {
+          results <- ragnar::ragnar_retrieve_vss(store, text, ...)$text
+          # Filter out entries containing 'workshop' if the toggle is on
+          if (status_ignore_workshops) {
+            results <- results[!grepl("workshop", results, ignore.case = TRUE)]
+          }
+          stringi::stri_flatten(results, "\n\n---\n\n")
         },
         glue::glue(
           "Given a string, retrieve the most relevent excerpts from {store_description}."
         ),
         text = ellmer::type_string(
           "The text to find the most relevent matches for."
+        ),
+        status_ignore_workshops = ellmer::type_boolean(
+          "Whether to ignore workshops in the results."
         )
       )
     )
@@ -38,7 +45,9 @@ last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
   as.Date(format = "%Y-%m-%d")
 
 system_prompt <- ellmer::interpolate_file(
-  "system-prompt.md", event_info = read_md("event-info.md")
+  "system-prompt.md", 
+  event_info = read_md("event-info.md"),
+  status_ignore_workshops = FALSE
 )
 
 welcome_message <- ellmer::interpolate_file(
@@ -55,21 +64,36 @@ ui <- bslib::page_sidebar(
   ),
   shinychat::chat_ui(
     "chat",
-    messages = welcome_message
+    messages = list(
+      welcome_message,
+      bslib::card(
+        "Settings:",
+        bslib::input_switch("switch_workshops", "Ignore all workshops", value = FALSE))
+    )
   )
 )
 
 server <- function(input, output, session) {
   chat <- ellmer::chat_openai(
     system_prompt = system_prompt,
-    model = "gpt-4o-mini",
-    api_args = list(temperature = 0.4)
+    model = "gpt-4.1-nano",
+    api_args = list(temperature = 0.2)
   )
   ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
   
   observeEvent(input$chat_user_input, {
     stream <- chat$stream_async(input$chat_user_input)
     shinychat::chat_append("chat", stream)
+  })
+
+  observeEvent(input$switch_workshops, {
+    chat$set_system_prompt(
+      ellmer::interpolate_file(
+        "system-prompt.md",
+        event_info = read_md("event-info.md"),
+        status_ignore_workshops = input$switch_workshops
+      )
+    )
   })
 }
 

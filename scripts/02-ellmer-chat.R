@@ -25,15 +25,22 @@ ragnar_register_tool_retrieve_vss <-
     chat$register_tool(
       ellmer::tool(
         .name = glue::glue("rag_retrieve_from_{store@name}"),
-        function(text) {
-          ragnar::ragnar_retrieve_vss(store, text, ...)$text |>
-            stringi::stri_flatten("\n\n---\n\n")
+        function(text, status_ignore_workshops = status_ignore_workshops) {
+          results <- ragnar::ragnar_retrieve_vss(store, text, ...)$text
+          # Filter out entries containing 'workshop' if the toggle is on
+          if (status_ignore_workshops) {
+            results <- results[!grepl("workshop", results, ignore.case = TRUE)]
+          }
+          stringi::stri_flatten(results, "\n\n---\n\n")
         },
         glue::glue(
           "Given a string, retrieve the most relevent excerpts from {store_description}."
         ),
         text = ellmer::type_string(
           "The text to find the most relevent matches for."
+        ),
+        status_ignore_workshops = ellmer::type_boolean(
+          "Whether to ignore workshops in the results."
         )
       )
     )
@@ -42,4 +49,4 @@ ragnar_register_tool_retrieve_vss <-
 
 ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
 
-chat$chat("What sessions are on casual inference?")
+chat$chat("What sessions from Hadley? Ignore workshops.")
