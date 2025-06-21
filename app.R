@@ -60,12 +60,16 @@ ui <- bslib::page_sidebar(
       p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
       p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered by ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
-      bslib::input_switch("switch_workshops", "Ignore all workshops", value = FALSE), 
       class = "text-center"
   ),
   shinychat::chat_ui(
     "chat",
-    messages = welcome_message
+    messages = list(
+      welcome_message,
+      bslib::card(
+        "Settings:",
+        bslib::input_switch("switch_workshops", "Ignore all workshops", value = FALSE))
+    )
   )
 )
 
