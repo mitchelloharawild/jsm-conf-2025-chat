@@ -9,3 +9,7 @@ This repository contains a chat application built for [posit::conf(2025)](https:
 - **App Launch:** The `app.R` script launches the interactive chat application, using the processed data.
 
 For questions or contributions, please open an issue or submit a pull request.
+
+## Acknowledgments
+
+Thanks for @LibbyHerran for reviewing the app after I first made it and providing valuable feedback. Also, thanks to @astrowonk for helpful tips and reference Python code on how to call the API. Both of your suggestions helped me improve the app significantly.
