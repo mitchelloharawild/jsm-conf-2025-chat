@@ -90,8 +90,7 @@ server <- function(input, output, session) {
       modalDialog(
         title = "Settings",
         bslib::input_switch("switch_workshops", "Ignore all workshops", value = isTRUE(input$switch_workshops)),
-        easyClose = TRUE,
-        footer = NULL
+        easyClose = TRUE
       )
     )
   })
