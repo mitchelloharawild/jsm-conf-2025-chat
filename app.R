@@ -55,15 +55,23 @@ welcome_message <- ellmer::interpolate_file(
 )
 
 ui <- bslib::page_sidebar(
-  title = "posit::conf(2025) chat",
+  # Custom header row with title and smaller settings button
+  tags$div(
+    style = "display: flex; align-items: center; justify-content: space-between; width: 100%; position: relative; z-index: 1000; margin-bottom: 0.25rem;",
+    tags$h4("posit::conf(2025) chat", style = "margin: 0;"),
+    actionButton(
+      "open_settings",
+      label = NULL,
+      icon = shiny::icon("gear"),
+      class = "btn-default",
+      style = "margin-left: auto; padding: 0.2rem 0.4rem; font-size: 1.1rem; height: 2rem; width: 2rem; min-width: 2rem; border: none; background: transparent; color: #495057; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: none;",
+      
+    )
+  ),
   sidebar = bslib::sidebar(
       p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
       p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered by ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
-      tags$div(
-        style = "position: absolute; top: 1rem; right: 1rem; z-index: 1000;",
-        actionButton("open_settings", label = NULL, icon = shiny::icon("gear"), class = "btn btn-default")
-      ),
       class = "text-center"
   ),
   shinychat::chat_ui(
