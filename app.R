@@ -60,16 +60,15 @@ ui <- bslib::page_sidebar(
       p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
       p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
       p("The chat is powered by ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
+      tags$div(
+        style = "position: absolute; top: 1rem; right: 1rem; z-index: 1000;",
+        actionButton("open_settings", label = NULL, icon = shiny::icon("gear"), class = "btn btn-default")
+      ),
       class = "text-center"
   ),
   shinychat::chat_ui(
     "chat",
-    messages = list(
-      welcome_message,
-      bslib::card(
-        "Settings:",
-        bslib::input_switch("switch_workshops", "Ignore all workshops", value = FALSE))
-    )
+    messages = welcome_message
   )
 )
 
@@ -86,6 +85,16 @@ server <- function(input, output, session) {
     shinychat::chat_append("chat", stream)
   })
 
+  observeEvent(input$open_settings, {
+    showModal(
+      modalDialog(
+        title = "Settings",
+        bslib::input_switch("switch_workshops", "Ignore all workshops", value = isTRUE(input$switch_workshops)),
+        easyClose = TRUE
+      )
+    )
+  })
+
   observeEvent(input$switch_workshops, {
     chat$set_system_prompt(
       ellmer::interpolate_file(
@@ -98,3 +107,4 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
