@@ -83,14 +83,29 @@ ui <- bslib::page_sidebar(
 server <- function(input, output, session) {
   chat <- ellmer::chat_openai(
     system_prompt = system_prompt,
-    model = "gpt-4.1-nano",
+    model = "gpt-4.1-mini",
     api_args = list(temperature = 0.2)
   )
   ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
   
   observeEvent(input$chat_user_input, {
-    stream <- chat$stream_async(input$chat_user_input)
-    shinychat::chat_append("chat", stream)
+    tryCatch({
+      stream <- chat$stream_async(input$chat_user_input)
+      shinychat::chat_append("chat", stream)
+    }, error = function(e) {
+      if (grepl("rate limit", e$message, ignore.case = TRUE)) {
+        showNotification(
+          "You have reached the rate limit for the chat service. Please wait a moment and try again.",
+          type = "error",
+          duration = 8
+        )
+      } else {
+        showNotification(
+          paste("An error occurred:", e$message),
+          type = "error"
+        )
+      }
+    })
   })
 
   observeEvent(input$open_settings, {
