@@ -91,12 +91,6 @@ server <- function(input, output, session) {
   observeEvent(input$chat_user_input, {
     stream <- chat$stream_async(input$chat_user_input)
     shinychat::chat_append("chat", stream)
-    if (grepl("error occurred", stream, ignore.case = TRUE)) {
-      showNotification(
-        "You have reached the rate limit for the chat service. Please wait a moment and try again. You will need to refresh the page to reset the chat.",
-        type = "error"
-      )
-    }
   })
 
   observeEvent(input$open_settings, {
