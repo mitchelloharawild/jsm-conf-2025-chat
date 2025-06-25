@@ -95,7 +95,8 @@ server <- function(input, output, session) {
     }, error = function(e) {
       if (grepl("rate limit", e$message, ignore.case = TRUE)) {
         showNotification(
-          "You have reached the rate limit for the chat service. Please wait a moment and try again.",
+          "You have reached the rate limit for the chat service. Please wait a moment and try again. 
+          You will need to refresh the page to reset the chat.",
           type = "error",
           duration = 8
         )
