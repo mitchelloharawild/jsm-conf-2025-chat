@@ -3,7 +3,7 @@ Hello! Welcome to **posit::conf(2025)**! 🎉 I'm a chat bot designed to help yo
 Here are some examples:
 - 'Are there any sessions about causal inference?'
 - 'What talks is Hadley giving this year?'
-- 'I'm interested in learning about ellmer, what sessions should I attend?'
+- 'I'm interested in learning about LLMs, what sessions should I attend?'
 
 Let's get started! Type your question below, and I'll do my best to assist you. 😊
 
