@@ -132,11 +132,11 @@ result <- extract_session_info(resp_json) |>
 result <- result |>
  mutate( 
    text = glue::glue( 
-"## Talk title: {talk_title}
-**Talk code:** {session_code}
+"## Title: {talk_title}
+**Code:** {session_code}
 **Session type:** {session_type}
 
-**Talk abstract:**
+**Abstract:**
 {abstract}
 
 **Speaker name:** {speaker}
