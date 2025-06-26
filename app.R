@@ -2,12 +2,12 @@ library(ragnar)
 library(shiny)
 library(shinychat)
 
-source("utilities.R")
+source("scripts/utilities.R")
 
 store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
 
-last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
+last_updated <- readLines(file.path("data", "retrieval-date.txt")) |> 
   as.Date(format = "%Y-%m-%d")
 
 system_prompt <- ellmer::interpolate_file(

@@ -2,7 +2,7 @@ library(vitals)
 library(ellmer)
 library(tibble)
 
-source("utilities.R")
+source("scripts/utilities.R")
 
 vitals::vitals_log_dir_set("eval/logs")
 
