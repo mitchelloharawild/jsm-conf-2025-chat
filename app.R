@@ -37,7 +37,7 @@ ui <- bslib::page_sidebar(
   sidebar = bslib::sidebar(
     markdown("Welcome to the [posit::conf(2025)](https://posit.co/conference) Agenda Chat Bot! Start by typing in a question."),
     markdown("You're currently using a version hosted by Posit, powered by OpenAI via [ellmer](https://ellmer.tidyverse.org/) and [ragnar](https://ragnar.tidyverse.org/)."),
-    markdown("The chat bot by created by Sam Parmar and republished with kind permission."),
+    markdown("The chat bot was originally created by Sam Parmar and republished with kind permission."),
     tags$a(
       class = "btn btn-outline-primary btn-sm",
       href = "https://github.com/parmsam/posit-conf-2025-chat",
