@@ -1,4 +1,4 @@
-Hello! Welcome to **posit::conf(2025)**! 🎉 I'm a chat bot designed to help you find information about the sessions at this year's conference. If you have any questions about the sessions or speakers, feel free to ask. This app is **not** officially affiliated with Posit, but it uses agenda data from the conference website. If you get an error, you might be rate limited, so please refresh your page and try again in a minute or two.
+Hello! Welcome to **posit::conf(2025)**! 🎉 I'm a chat bot designed to help you find information about the sessions at this year's conference. If you have any questions about the sessions or speakers, feel free to ask. It uses agenda data from the conference website. If you get an error, you might be rate limited, so please refresh your page and try again in a minute or two.
 
 Here are some examples:
 - 'Are there any sessions about causal inference?'

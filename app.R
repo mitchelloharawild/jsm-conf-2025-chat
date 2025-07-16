@@ -25,7 +25,7 @@ ui <- bslib::page_sidebar(
   # Custom header row with title and smaller settings button
   tags$div(
     style = "display: flex; align-items: center; justify-content: space-between; width: 100%; position: relative; z-index: 1000; margin-bottom: 0.25rem;",
-    tags$h4("posit::conf(2025) chat", style = "margin: 0;"),
+    tags$h4("posit::conf(2025) Agenda Chat Bot", style = "margin: 0;"),
     actionButton(
       "open_settings",
       label = NULL,
@@ -35,9 +35,16 @@ ui <- bslib::page_sidebar(
     )
   ),
   sidebar = bslib::sidebar(
-    p("Welcome to a chat bot for posit::conf(2025)! Start by typing in a question."),
-    p("This chat interface allows you to ask questions about the sessions at posit::conf(2025)."),
-    p("The chat is powered by ellmer using an OpenAI model and retrieves relevant information from a ragnar knowledge store."),
+    markdown("Welcome to the [posit::conf(2025)](https://posit.co/conference) Agenda Chat Bot! Start by typing in a question."),
+    markdown("You're currently using a version hosted by Posit, powered by OpenAI via [ellmer](https://ellmer.tidyverse.org/) and [ragnar](https://ragnar.tidyverse.org/)."),
+    markdown("The chat bot by created by Sam Parmar and republished with kind permission."),
+    tags$a(
+      class = "btn btn-outline-primary btn-sm",
+      href = "https://github.com/parmsam/posit-conf-2025-chat",
+      target = "_blank",
+      tags$i(class = "fa fa-github me-2"),
+      "View on GitHub"
+    ),
     class = "text-center"
   ),
   shinychat::chat_ui(
@@ -47,7 +54,8 @@ ui <- bslib::page_sidebar(
 )
 
 server <- function(input, output, session) {
-  chat <- ellmer::chat_anthropic(
+  chat <- ellmer::chat_openai(
+    model = "gpt-4.1-mini",
     system_prompt = system_prompt,
     api_args = list(temperature = 0.2)
   )
