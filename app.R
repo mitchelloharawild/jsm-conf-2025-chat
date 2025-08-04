@@ -4,8 +4,11 @@ library(shinychat)
 
 source("scripts/utilities.R")
 
-store_location <- file.path("data", "jsm-conf-2025.ragnar.duckdb")
+store_location <- file.path("data", "jsm-talks-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
+jsm_df <- readr::read_rds(
+  file.path("data", "jsm-conf-sessions.rds")
+)
 
 last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
   as.Date(format = "%Y-%m-%d")
@@ -60,7 +63,7 @@ server <- function(input, output, session) {
     system_prompt = system_prompt,
     api_args = list(temperature = 0.2)
   )
-  ragnar_register_tool_retrieve_vss(chat, store, top_k = 20)
+  ragnar_register_tool_retrieve_vss(chat, jsm_df, store, top_k = 20)
 
   observeEvent(input$chat_user_input, {
     stream <- chat$stream_async(input$chat_user_input)

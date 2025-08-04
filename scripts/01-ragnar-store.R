@@ -9,35 +9,29 @@ jsm_df <- readr::read_rds(
   file.path("data", "jsm-conf-sessions.rds")
 )
 
-chunks_df <- jsm_df |>
+chunks_df <- jsm_df |> 
+  select(-title) |> 
+  tidyr::unnest(talks) |> 
   rowwise() |> 
-  mutate(talks = paste0(
-    paste0(
-      "<talk>\n",
-      glue::glue_data(talks, "<title>{title}</title>\n<speaker>{speaker}</speaker>\n<abstract>{abstract}</abstract>"),
-      "\n</talk>\n"
-      ),
-    collapse = "\n")
-  ) |> 
   transmute(
     title,
-    text = paste0(
-      "<session>\n",
-      "<title>", title, "</title>\n",
-      "<type>", type, "</type>\n",
-      "<date>", date, "</date>\n",
-      "<time>", time, "</time>\n",
-      "<location>", location, "</location>\n",
-      "<room>", room, "</room>",
-      talks,
-      "</session>\n",
-      "---"
-    )
+    text = glue::glue(
+"
+<title>{title}</title>
+<session internal=true>{id}</session>
+<date>{date}</date>
+<time>{time}</time>
+<speaker>{speaker}</speaker>
+<abstract>
+{abstract}
+</abstract>
+"
+  ),
   ) |> 
   ungroup() |> 
   filter(nchar(text) < 30000)
 
-store_location <- file.path("data", "jsm-conf-2025.ragnar.duckdb")
+store_location <- file.path("data", "jsm-talks-2025.ragnar.duckdb")
 
 store <- ragnar::ragnar_store_create(
   location = store_location,
@@ -51,10 +45,25 @@ ragnar::ragnar_store_insert(store, chunks_df)
 
 # Example retrieval
 store <- ragnar_store_connect(store_location, read_only = TRUE)
-text <- "ggplot extenders"
+text <- "Matthew Kay"
 
-embedding_near_chunks <- ragnar_retrieve_vss(store, text, top_k = 3)
+embedding_near_chunks <- ragnar_retrieve_vss(store, text, top_k = 10)
 embedding_near_chunks$text[1] |> cat(sep = "\n~~~~~~~~\n")
+
+xml_extract <- function(x, dom) {
+  xpath <- paste0("descendant-or-self::", dom)
+  vapply(x, function(content) {
+    xml2::read_html(content) |> 
+      xml2::xml_find_all(xpath) |> 
+      xml2::xml_text()
+  }, character(1L)) |> 
+    unname()
+}
+
+session_id <- xml_extract(embedding_near_chunks$text, "session")
+talk_date <- xml_extract(embedding_near_chunks$text, "date")
+
+selectr::css_to_xpath()
 
 # embedding_near_chunks <- ragnar_retrieve(store, text)
 # embedding_near_chunks$text[1] |> cat(sep = "\n~~~~~~~~\n")
