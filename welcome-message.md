@@ -1,9 +1,9 @@
 Hello! Welcome to **JSM 2025**! 🎉 I'm a chat bot designed to help you find information about the sessions at this year's conference. If you have any questions about the sessions or speakers, feel free to ask. It uses agenda data from the conference website. If you get an error, you might be rate limited, so please refresh your page and try again in a minute or two.
 
 Here are some examples:
-- 'Are there any sessions about statistical graphics?'
-- 'What talks are on today related to AI?'
-- 'I'm interested in learning about LLMs, what sessions should I attend?'
+- 'Are there any sessions about statistical graphics tomorrow?'
+- 'What talks are happening soon relating to AI?'
+- 'I'm interested in epidemic modelling, which sessions should I attend today?'
 
 Let's get started! Type your question below, and I'll do my best to assist you. 😊
 
