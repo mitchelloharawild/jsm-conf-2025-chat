@@ -4,7 +4,7 @@ library(shinychat)
 
 source("scripts/utilities.R")
 
-store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
+store_location <- file.path("data", "jsm-conf-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
 
 last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
@@ -25,7 +25,7 @@ ui <- bslib::page_sidebar(
   # Custom header row with title and smaller settings button
   tags$div(
     style = "display: flex; align-items: center; justify-content: space-between; width: 100%; position: relative; z-index: 1000; margin-bottom: 0.25rem;",
-    tags$h4("posit::conf(2025) Agenda Chat Bot", style = "margin: 0;"),
+    tags$h4("JSM 2025 Agenda Chat Bot", style = "margin: 0;"),
     actionButton(
       "open_settings",
       label = NULL,
@@ -35,12 +35,12 @@ ui <- bslib::page_sidebar(
     )
   ),
   sidebar = bslib::sidebar(
-    markdown("Welcome to the [posit::conf(2025)](https://posit.co/conference) Agenda Chat Bot! Start by typing in a question."),
-    markdown("You're currently using a version hosted by Posit, powered by OpenAI via [ellmer](https://ellmer.tidyverse.org/) and [ragnar](https://ragnar.tidyverse.org/)."),
-    markdown("The chat bot was originally created by Sam Parmar and republished with kind permission."),
+    markdown("Welcome to the [JSM 2025](https://ww2.amstat.org/meetings/jsm/2025/) Agenda Chat Bot! Start by typing in a question."),
+    markdown("You're currently using a self-hosted [shinychat](https://posit-dev.github.io/shinychat/) app, powered by OpenAI via [ellmer](https://ellmer.tidyverse.org/) and [ragnar](https://ragnar.tidyverse.org/)."),
+    markdown("This app was adapted by [Mitchell O'Hara-Wild](https://github.com/mitchelloharawild/) from the great efforts of [Sam Parmar](https://github.com/parmsam)'s app for posit::conf(2025)."),
     tags$a(
       class = "btn btn-outline-primary btn-sm",
-      href = "https://github.com/parmsam/posit-conf-2025-chat",
+      href = "https://github.com/mitchelloharawild/jsm-conf-2025-chat",
       target = "_blank",
       tags$i(class = "fa fa-github me-2"),
       "View on GitHub"
