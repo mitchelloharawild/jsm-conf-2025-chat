@@ -13,6 +13,7 @@ last_updated <- readLines(file.path("data", "retrieval-date.txt")) |>
 system_prompt <- ellmer::interpolate_file(
   "system-prompt.md",
   event_info = read_md("event-info.md"),
+  date_today = format(Sys.time(), tz = "America/Chicago", usetz = TRUE),
   status_ignore_workshops = FALSE
 )
 
@@ -59,7 +60,7 @@ server <- function(input, output, session) {
     system_prompt = system_prompt,
     api_args = list(temperature = 0.2)
   )
-  ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
+  ragnar_register_tool_retrieve_vss(chat, store, top_k = 20)
 
   observeEvent(input$chat_user_input, {
     stream <- chat$stream_async(input$chat_user_input)
