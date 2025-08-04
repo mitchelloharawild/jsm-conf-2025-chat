@@ -106,6 +106,6 @@ get_event_talks <- function(id) {
 
 jsm_sessions |> 
   rowwise() |>
-  mutate(get_event_talks(id)) |> 
+  mutate(title = sub("^View\\s", "", title), get_event_talks(id)) |> 
   ungroup() |> 
   readr::write_rds("data/jsm-conf-sessions.rds")
