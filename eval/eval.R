@@ -18,7 +18,7 @@ system_prompt <- ellmer::interpolate_file(
 
 chat <- chat_openai(model = "gpt-4.1-mini", api_args = list(temperature = 0.2), system_prompt = system_prompt)
 
-store_location <- file.path("data", "posit-conf-2025.ragnar.duckdb")
+store_location <- file.path("data", "jsm-conf-2025.ragnar.duckdb")
 store <- ragnar::ragnar_store_connect(store_location, read_only = TRUE)
 ragnar_register_tool_retrieve_vss(chat, store, top_k = 10)
 
